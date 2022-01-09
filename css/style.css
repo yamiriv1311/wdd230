@@ -1,0 +1,56 @@
+
+/*IMAGES*/
+.me{
+  height: 190px;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+
+/*TEXTS*/
+
+h1{
+  font-size: 50px;
+  text-align: center;
+  padding: 30px;
+}
+
+h2{
+  font-size: 30px;
+}
+
+h2:hover{
+  text-shadow: 0px 0 30px rgb(59, 133, 83);
+}
+
+/*GENERAL*/
+
+.div1{
+  display: block;
+  max-width: 600px;
+  margin-left: 240px;
+  margin-top: 80px;
+  margin-bottom: 90px;
+}
+
+header{
+  background-color: rgb(3, 44, 46);
+  display: flex;
+  padding: 9px;
+  border-radius: 20px;
+  color: rgb(170, 188, 201);
+}
+
+header:hover{
+  color: rgb(55, 122, 81);
+  box-shadow: 0px 0 30px rgb(85, 66, 26);
+}
+
+footer{
+  background-color: rgb(3, 44, 46);
+  margin-top: 50px;
+  padding: 5px;
+  border-radius: 20px;
+  color: rgb(170, 188, 201);
+  text-align: center;
+}
