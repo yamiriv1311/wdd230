@@ -58,3 +58,14 @@ footer{
   color: rgb(170, 188, 201);
   text-align: center;
 }
+
+/*LESSONS*/
+
+.lesson2{
+  text-decoration: none;
+}
+
+.lesson2:hover{
+  color: rgb(13, 61, 47);
+  background-color: rgba(100, 122, 94, 0.808);
+}
