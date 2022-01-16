@@ -1,0 +1,200 @@
+
+
+/*-------- GENERAL PAGE STUF ----------- */
+body{
+  padding: 2%;
+}
+
+
+header{
+  background-color: rgb(14, 13, 26);
+  max-width: 530px;
+  margin-left: 350px;
+  border-radius: 20px;
+  margin-bottom: 5%;
+}
+
+main{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+hr{
+  margin-top: 20px;
+  width: 140px;
+}
+
+/*-------------- PAGES DIV --------------- */
+
+.first_page{
+  max-width: 400px;
+  max-height: auto;
+  border-top: inherit;
+  border-bottom: inherit;
+  border-style: double;
+  border-color:rgba(53, 50, 15, 0.438);
+  padding: 20px;
+}
+
+.second_page{
+  max-width: 400px;
+  max-height: auto;
+  padding: 20px;
+}
+
+.third_page{
+  max-width: 400px;
+  max-height: auto;
+  border-top: inherit;
+  border-bottom: inherit;
+  border-style: double;
+  border-color: rgba(53, 50, 15, 0.438);
+  padding: 20px;
+}
+
+/*-------------- TEXTS --------------- */
+
+h1, .my_name{
+  text-align: center;
+  color: white;
+  padding: 4px;
+}
+
+h1{
+  margin-bottom: -12px;
+}
+
+.my_name{
+  font-family: 'Oswald', sans-serif;
+  margin-top: -13px;
+}
+
+.proximity_text{
+  text-align: center;
+  margin-left: 20px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(64, 66, 66);
+  max-width: 120px;
+  border-radius: 20px;
+}
+
+.name_page_1{
+  text-align: center;
+  color: rgb(190, 28, 125);
+  font-size: 34px;
+}
+
+.text_page_1{
+  padding: 5%;
+  color: rgb(255, 253, 253);
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  background-color: rgba(0, 0, 0, 0.74);
+  border-radius: 40px;
+}
+
+
+.contrast_text{
+  text-align: center;
+  margin-left: 20px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(64, 66, 66);
+  max-width: 120px;
+  border-radius: 20px;
+}
+
+
+.name_page_2{
+  text-align: center;
+  color: rgb(202, 15, 15);
+  font-size: 38px;
+}
+
+.text_page_2{
+  padding: 5%;
+  color: rgb(255, 253, 253);
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  background-color: rgba(0, 0, 0, 0.74);
+  border-radius: 40px;
+}
+
+.repetition_text{
+  text-align: center;
+  margin-left: 20px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(64, 66, 66);
+  max-width: 120px;
+  border-radius: 20px;
+}
+
+
+.name_page_3{
+  text-align: center;
+  color: rgb(66, 54, 70);
+  font-size: 38px;
+}
+
+.text_page_3{
+  padding: 5%;
+  color: rgb(255, 253, 253);
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  background-color: rgba(0, 0, 0, 0.74);
+  border-radius: 40px;
+}
+
+h2:hover{
+  background-color: black;
+}
+
+p:hover{
+  background-color: black;
+}
+
+/*-------------- IMAGES --------------- */
+
+.img_page_1{
+  padding: 5%;
+  margin-top: -9px;
+}
+
+.img_page_2{
+  padding: 3%;
+  margin-top: 30px;
+}
+
+.img_page_3{
+  padding: 3%;
+  margin-top: 30px;
+}
+
+
+/*-------------- LINKS --------------- */
+
+.page1_link{
+  text-decoration: none;
+  background-color: rgb(190, 28, 125);
+  color: white;
+  padding: 5px;
+  margin-left: 118px;
+}
+
+.page2_link{
+  text-decoration: none;
+  background-color: rgb(204, 12, 12);
+  color: white;
+  padding: 5px;
+  margin-left: 117px;
+}
+
+.page3_link{
+  text-decoration: none;
+  background-color: rgb(17, 17, 17);
+  color: white;
+  padding: 5px;
+  margin-left: 117px;
+}
