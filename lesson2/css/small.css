@@ -1,0 +1,14 @@
+
+
+/* -----------  GRID STUFF ------------- */
+
+div.columns{
+  display: grid;
+  grid-template-columns: 1fr;
+
+}
+
+div.columns{
+  margin-left: 30px;
+}
+
