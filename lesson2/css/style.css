@@ -39,7 +39,6 @@ footer{
 
 .first_page{
   max-width: 400px;
-  max-height: auto;
   border-top: inherit;
   border-bottom: inherit;
   border-style: double;
@@ -49,13 +48,11 @@ footer{
 
 .second_page{
   max-width: 400px;
-  max-height: auto;
   padding: 20px;
 }
 
 .third_page{
   max-width: 400px;
-  max-height: auto;
   border-top: inherit;
   border-bottom: inherit;
   border-style: double;
