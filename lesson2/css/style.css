@@ -24,6 +24,17 @@ hr{
   width: 140px;
 }
 
+footer{
+  background-color: rgb(14, 13, 26);
+  max-width: 530px;
+  margin-left: 350px;
+  border-radius: 20px;
+  margin-top: 5%;
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+
 /*-------------- PAGES DIV --------------- */
 
 .first_page{
@@ -151,7 +162,15 @@ h2:hover{
   background-color: black;
 }
 
-p:hover{
+.text_page_1:hover{
+  background-color: black;
+}
+
+.text_page_2:hover{
+  background-color: black;
+}
+
+.text_page_3:hover{
   background-color: black;
 }
 
