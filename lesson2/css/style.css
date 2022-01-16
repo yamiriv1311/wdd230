@@ -8,8 +8,7 @@ body{
 
 header{
   background-color: rgb(14, 13, 26);
-  max-width: 530px;
-  margin-left: 350px;
+  width: 100%;
   border-radius: 20px;
   margin-bottom: 5%;
 }
@@ -27,8 +26,7 @@ hr{
 
 footer{
   background-color: rgb(14, 13, 26);
-  max-width: 530px;
-  margin-left: 350px;
+  width: 100%;  
   border-radius: 20px;
   margin-top: 5%;
   text-align: center;
@@ -39,7 +37,6 @@ footer{
 /*-------------- PAGES DIV --------------- */
 
 .first_page{
-  max-width: 400px;
   border-top: inherit;
   border-bottom: inherit;
   border-style: double;
@@ -48,12 +45,10 @@ footer{
 }
 
 .second_page{
-  max-width: 400px;
   padding: 20px;
 }
 
 .third_page{
-  max-width: 400px;
   border-top: inherit;
   border-bottom: inherit;
   border-style: double;
