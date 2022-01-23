@@ -69,3 +69,12 @@ footer{
   color: rgb(13, 61, 47);
   background-color: rgba(100, 122, 94, 0.808);
 }
+
+.lesson3{
+  text-decoration: none;
+}
+
+.lesson3:hover{
+  color: rgb(13, 61, 47);
+  background-color: rgba(100, 122, 94, 0.808);
+}
