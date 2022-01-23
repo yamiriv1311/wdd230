@@ -1,0 +1,50 @@
+
+.link{
+  text-decoration: none;
+}
+
+.typo{
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+}
+
+
+.navigation{
+  list-style-type: none;
+  display: flex;
+  text-align: center;
+}
+
+.navigation li{
+  flex: 10px;
+  font-family: great vibes;
+  font-size: 20px;
+
+}
+
+.navigation a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(20, 16, 26); 
+}
+
+.navigation a:hover{
+  background-color: #252a5ed5;
+  color: #ffffff; 
+}
+
+h1{
+  margin-left: 600px;
+}
+
+footer{
+  background-color: rgb(20, 16, 26);
+  width: 100%;  
+  border-radius: 20px;
+  margin-top: 5%;
+  text-align: center;
+  color: rgb(255, 253, 253);
+  padding: 10px;
+}
