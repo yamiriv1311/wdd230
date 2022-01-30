@@ -1,0 +1,68 @@
+
+/*  ------------- HEADER --------------------*/
+
+header{
+  background-color: #eee;
+  padding: 2vw;
+  display: flex;
+  margin-left: 20px;
+  margin-top: 20px;
+  max-width: 1180px;
+  border-radius: 20px;
+}
+
+/*  ------------- NAV --------------------*/
+
+nav button{
+  background-color: transparent;
+  border: none;
+  font-size: 30px;
+  color: #555;
+  position: absolute;
+  right: 0px;
+}
+
+nav ul{
+  list-style-type: none;
+  padding: 5px;
+  margin: 20px;
+}
+
+nav ul li a{
+  display: block;
+  padding: .3rem 2vw;
+  text-decoration: none;
+  color: #333;
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+nav ul li a:hover{
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+nav ul {display: none;}
+nav ul.open{display: block;}
+
+#hamburgerBtn span:nth-child(1) {display: block;}
+#hamburgerBtn span:nth-child(2) {display: none;}
+
+#hamburgerBtn.open span:nth-child(1) {display: none;}
+#hamburgerBtn.open span:nth-child(2) {display: block;}
+
+
+
+/*  ------------- TEXT --------------------*/
+
+.subtitle{
+  margin: -.1rem;
+  margin-top: -20px;
+}
+
+
+
+/*  ------------- IMAGES --------------------*/
+
+.logo{
+  padding: 2%;
+}
