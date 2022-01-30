@@ -1,0 +1,36 @@
+
+
+@media only screen and (min-width: 35rem) {
+
+  nav ul li a{
+    padding: .5rem 1rem;
+  }
+
+
+  nav button{
+    display: none;
+  }
+
+  
+  nav ul#ul_navigation{
+    display: flex;
+    margin-left: 180px;
+
+  }
+  
+  nav ul li a{
+    border: none;
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+  }
+
+
+  .social_media{
+    position: absolute;
+    margin-left: 830px;
+    margin-top: 40px;
+  }
+
+
+}
+
+
