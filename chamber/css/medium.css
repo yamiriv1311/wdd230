@@ -1,0 +1,25 @@
+
+
+/* -----------  GRID STUFF ------------- */
+
+@media only screen and (min-width: 35rem) {
+
+  header, footer{
+    margin-right: 20px;
+  }
+
+  .social_media{
+    position: absolute;
+    margin-left: 520px;
+  }
+  
+  nav button{
+    margin-right: 50px;
+  }
+
+  footer{
+    text-align: center;
+  }
+  
+}
+
