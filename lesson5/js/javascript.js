@@ -32,11 +32,14 @@ button.addEventListener('click', function() {
   //Add an event listener to the delete button that removes the li element when clicked//
   //Send the focus to the input element//
   deleteBtn.addEventListener('click', function() {
-    list.removeChild(li);
-    input.focus();
-  })
-
-  //Clean up the successful add of a chapter by changing the input to nothing or the empty string and setting the focus to the input.//
-  
-
+    list.removeChild(li);  
+  });
 });
+
+
+//Clean up the successful add of a chapter by changing the input to nothing or the empty string and setting the focus to the input.//
+button.onclick = function() {
+  let aChapter = input.value;
+  input.value = '';
+  input.focus();
+}
