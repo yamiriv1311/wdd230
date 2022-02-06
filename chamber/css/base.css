@@ -1,34 +1,28 @@
 
-/*  ------------- HEADER --------------------*/
-
+/*  ------------- FULL PAGE STUF --------------------*/
 
 header{
   background-color: #eee;
-  padding: 2vw;
   display: flex;
-  margin-left: 20px;
-  margin-top: 20px;
-  max-width: 1180px;
+  margin: 20px;
+  max-width: 400px;
   border-radius: 20px;
 }
 
-header, footer{
-  margin-right: 20px;
-}
-
-footer{
-  text-align: center;
-}
 
 footer{
   
   background-color: #eee;
-  padding: 2vw;
   display: flex;
-  margin-left: 20px;
-  margin-top: 20px;
-  max-width: 1180px;
+  margin: 20px;
+  max-width: 400px;
   border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+
+.footer_sec{
+  display: flex;
 }
 
 /*  ------------- NAV --------------------*/
@@ -70,6 +64,14 @@ nav ul.open{display: block;}
 #hamburgerBtn.open span:nth-child(2) {display: block;}
 
 
+/*  ------------- GRID --------------------*/
+
+main{
+  display: grid;
+  margin: 20px;
+  grid-template-columns: 325px 325px 325px;
+}
+
 
 /*  ------------- TEXT --------------------*/
 
@@ -103,22 +105,7 @@ nav ul.open{display: block;}
 
 
 
-footer{
-  
-  background-color: #eee;
-  padding: 2vw;
-  display: flex;
-  margin-left: 20px;
-  margin-top: 20px;
-  max-width: 1180px;
-  border-radius: 20px;
-  margin-bottom: 20px;
-}
 
-
-.footer_sec{
-  display: flex;
-}
 
 
 p{
@@ -144,8 +131,4 @@ date{
 	padding: .3rem;
 	background-color: #eee;
   align-content: center;
-}
-
-.div{
-  height: 500px;
 }
