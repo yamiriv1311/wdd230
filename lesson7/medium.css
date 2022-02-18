@@ -1,0 +1,10 @@
+
+/* -----------  GRID STUFF ------------- */
+
+@media only screen and (min-width: 600px) {
+  picture{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 200px;
+  }
+}

@@ -1,0 +1,14 @@
+
+
+@media only screen and (min-width: 938px) {
+  picture{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 400px;
+  }
+
+  h1{
+    text-align: center;
+    margin-left: 120px;
+  }
+}
