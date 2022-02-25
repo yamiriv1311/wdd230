@@ -1,0 +1,53 @@
+
+html {
+  font-family: "Ubuntu", sans-serif;
+}
+
+table {
+  letter-spacing: 1px;
+  border-collapse: collapse;
+  box-shadow: 5px 5px 10px rgb(6, 59, 57);
+}
+
+table,td {
+	border: 1px solid black;
+}
+
+tr:first-child th{
+  color: rgb(3, 48, 3);
+  background-color: rgba(8, 58, 10, 0.452);
+  font-size: 20px;
+}
+
+tbody tr:nth-child(odd) {
+	background-color: rgba(124, 126, 124, 0.329);
+  color: rgb(7, 61, 12);
+}
+
+tbody tr:nth-child(even) {
+	background-color: rgba(11, 70, 11, 0.329);
+  color: rgb(7, 61, 12);
+}
+
+#colored_cell, tfoot {
+  background-color: rgb(13, 77, 47);
+  color:rgb(255, 255, 255);
+}
+
+
+
+th, td, tfoot{
+  text-align: center;
+  padding: 4px 24px;
+}
+
+th{
+  background-color: rgba(11, 46, 13, 0.815);
+  color: aliceblue;
+}
+
+tfoot{
+  background-color: rgba(8, 58, 10, 0.637);
+  font-size: 10px;
+  color: aliceblue;
+}
