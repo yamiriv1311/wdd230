@@ -21,8 +21,9 @@ body{
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, min-width(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
+
 
 section {
   margin: 5px;
