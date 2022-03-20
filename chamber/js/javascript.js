@@ -1,8 +1,12 @@
 
+//-------------- LAST MODIFICATION ----------------------//
+
 document.querySelector("#date").textContent = document.lastModified;
 var options = {year: "numeric"};
 document.querySelector("#year").textContent = new Date().toLocaleDateString("en-US", options);
 
+
+//-------------- MENU ----------------------//
 
 function toggleMenu(){
   document.getElementById("ul_navigation").classList.toggle("open");
@@ -13,16 +17,46 @@ const x = document.getElementById("hamburgerBtn");
 x.onclick = toggleMenu;
 
 
-const datefield = document.querySelector("date_format");
+
+//-------------- DATE ----------------------//
+const datefield = document.getElementById("date");
 
 const now = new Date();
 const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
 	now
 );
-const fulldateUK = new Intl.DateTimeFormat("en-UK", {
-	dateStyle: "full"
-}).format(now);
-
 
 datefield.innerHTML = `<em>${fulldate}</em>`;
-datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
+
+
+
+
+//-------------- LAZY LOADING ----------------------//
+const imagesToLoad = document.querySelectorAll("img[data-src]");
+
+const loadImages = function(image) {
+  image.setAttribute('src', image.getAttribute('data-src'));
+  image.onload = function() {
+    image.removeAttribute('data-src');
+  };
+};
+
+if('IntersectionObserver' in window) {
+  const imageObserver = new IntersectionObserver(function(items, imageObserver) {
+    items.forEach(function(item) {
+      if(item.isIntersecting) {
+        loadImages(item.target);
+        imageObserver.unobserve(item.target);
+      }
+    });
+  });
+  imagesToLoad.forEach(function(img) {
+    imageObserver.observe(img);
+  });
+}
+
+else{
+  imagesToLoad.forEach(function(img) {
+    loadImages(img);
+  });
+}
