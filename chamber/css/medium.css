@@ -4,21 +4,111 @@
 
 @media only screen and (min-width: 460px) {
 
-  header, footer{
-    margin-right: 20px;
+  body{
+    width: 860px;
+  }
+
+  /* ----------- GENERAL STUFF ------------- */
+
+  .logo{
+    max-height: 60px;
+    margin-top: 10px;
   }
 
   .socialmedia{
     position: absolute;
-    margin-left: 520px;
+    margin-left: 510px;
+    top: 40px;
   }
   
   nav button{
-    margin-right: 50px;
+    position: relative;
+    top: -35px;
+    left: 710px;
   }
 
   footer{
     text-align: center;
+  }
+
+
+  nav ul.open{margin-left: -220px;}
+
+  nav ul{
+    list-style-type: none;
+    text-align: center;
+    width: 740px;
+    position: relative;
+    left: 160px;
+    top: 10px;
+    margin-bottom: 20px;
+  }
+
+  nav ul li a{
+    font-size: 17px;
+  }
+
+  .center2{
+    background-color: rgba(130, 138, 168, 0.2);
+    height: 500px;
+    margin-bottom: 200px;
+    max-width: 720px;
+    margin-left: 60px;
+  }
+  
+  /* -----------  TEXT ------------- */
+
+  .title{
+    margin-left: -420px;
+  }
+
+  .subtitle{
+    margin-bottom: 30px;
+  }
+
+  .join_link{
+    color: rgb(177, 248, 201);
+    font-size: 20px;
+  }
+
+  .hero_title{
+    position: absolute;
+    top: 190px;
+    left: 90px;
+    display: block;
+    text-align: center;
+    width: 280px;
+    background-color: transparent;
+    font-size: 30px;
+  }
+
+  /* -----------  DATE ------------- */
+
+  #date{
+    position: relative;
+    width: 360px;
+    margin-left: 220px;
+    margin-top: -60px;
+    font-size: 18px;
+  }
+
+  
+  /*  ------------- VIDEOS --------------------*/
+  
+  video{
+    max-width: 760px;
+    margin-left: 52px;
+    margin-top: 1px;
+  }
+  
+  /* -----------  BUTTONS ------------- */
+
+  .join{
+    background-color: rgb(39, 71, 97);
+    position: absolute;
+    left: 580px;
+    top: 480px;
+    box-shadow: 0px 0 10px rgba(50, 53, 53, 0.781);
   }
   
 }
