@@ -210,7 +210,6 @@ text-align: center;
   width: 300px;
   margin-left: 50px;
   margin-top: 30px;
-<<<<<<< HEAD
 }
 
 .r2{
@@ -228,8 +227,6 @@ text-align: center;
   width: 300px;
 }
 
-=======
-}
 
 .r2{
   width: 300px;
@@ -246,7 +243,6 @@ text-align: center;
   width: 300px;
 }
 
->>>>>>> e85cf5c370eebcc70712424cbbee897cfbfba51b
 .eventimg:hover{
   box-shadow: 0px 0 30px rgba(88, 20, 8, 0.63);
 
@@ -334,16 +330,11 @@ a{
 }
 
 /*  ------------- VIDEOS --------------------*/
-<<<<<<< HEAD
 video{
   max-width: 320px;
   margin-left: 37px;
   margin-bottom: -204px;
 }
-=======
-
->>>>>>> e85cf5c370eebcc70712424cbbee897cfbfba51b
-
 /*  ------------- BUTTONS --------------------*/
 
 .join{
