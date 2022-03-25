@@ -95,12 +95,17 @@
   
   /*  ------------- VIDEOS --------------------*/
   
+<<<<<<< HEAD
   video{
     max-width: 760px;
     margin-left: 52px;
     margin-top: 1px;
   }
   
+=======
+  
+
+>>>>>>> e85cf5c370eebcc70712424cbbee897cfbfba51b
   /* -----------  BUTTONS ------------- */
 
   .join{
