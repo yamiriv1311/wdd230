@@ -10,22 +10,26 @@
   <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet" href="css/medium.css">
   <link rel="stylesheet" href="css/large.css">
+  <link rel="shortcut icon" href="images/favicon.ico">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 </head>
 
 <body>
   
   <header>  
-    <img src="images/logo_resized.png" alt="logo" class="logo">
+    <a href="index.html"><img src="images/logo_resized.png" alt="logo" class="logo"></a>
 
+    
     <section class="sitename">
-      <h1>Mexico City</h1>
+      <h1 class="title">Mexico City</h1>
       <div class="subtitle">Chamber of Commerce</div>
   
       <div class="socialmedia">
         <a href="https://www.facebook.com/"><img src="images/facebook_logo.png" alt="facebook" class="facebook"></a>
         <a href="https://www.instagram.com/?hl=es-la"><img src="images/ig_logo.png" alt="instagram"></a>
       </div>
+
+      <p id="date"></p> 
 
       <nav>
         <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
@@ -40,128 +44,118 @@
 
     </section>
 
-  
-
-
   </header>
 
 
   <main>
 
-    <div id="date"></div> 
-
     <div class="center1">
-      <figure>
-        <picture>
-          <img src="images/placeholder.PNG" data-src="https://www.mexicodesconocido.com.mx/wp-content/uploads/2021/03/69265.jpg" alt="img1" class="img1">
-        </picture>
-        <figcaption>Angel of Independence</figcaption>
-        <h1>Welcome to MCC</h1>
-        <p>
-          "Mexico City is the capital of the country, vibrant, multifaceted and always on the move, 
-          it is the political, economic and cultural nucleus of the Mexican Republic.
-          CDMX keeps secrets and events that have shaped the nation among its streets and long avenues." <a href="https://www.visitmexico.com/ciudad-de-mexico#:~:text=La%20Ciudad%20de%20México%20es,dado%20forma%20a%20la%20nación.">(Visit México)</a>
-        </p>
-      </figure>
+      <h2 class="hero_title">Welcome to Mexico City</h2>
+      <button class="join">
+        <a href="join.html" class="join_link">Join the Chamber</a>
+      </button>
     </div>
+    
 
     <div class="center2">
-      <figure>
-        <video src="https://img.visitmexico.com/estados/ciudad-de-mexico/ciudad-de-mexico.mp4"></video>
-      </figure>
+      <h3 class="h3_center2">Travel Around Mexico City</h3>
+      <p class="principal_p">
+        Mexico City is one of the most important cultural and financial centers in the world. It is located in the Valley of Mexico, a large valley in the high plateaus in the center of Mexico.
+      </p>
+      <p class="second_p">
+        Find the best time to go and the best places to visit for a true Mexico City experience
+      </p>
+      <a href="https://www.visitmexico.com/en/mexico-city/mexico-city" class="link_center2">Learn more...</a>
     </div>
 
     <div class="right1">
-      <figure>
-        <picture>
-          <img src="images/placeholder.PNG" data-src="images/r1.PNG" alt="bakery_store" class="r1">
-        </picture>
-        <h3>The Great Guys bakery</h3>
-        <p>
-          Breads, biscuits and cakes for all occasions
-        </p>
-        <p>
-          <b>Service Options:</b> Take away, home delivery service
-        </p>
-        <p>
-          <b>Phone Number:</b>123-456-789</p>
-        <button class="locationR1">
-          <a href="https://www.google.com.mx/maps/@19.3503783,-99.6007457,15z" class="linkR1">Location</a>
-        </button>
-      </figure>
+      <picture>
+        <img src="images/placeholder.PNG" data-src="images/r1.PNG" alt="bakery_store" class="r1">
+      </picture>
+
+      <h3>The Great Guys bakery</h3>
+      <p>
+        Breads, biscuits and cakes for all occasions
+      </p>
+      <p><b>Service Options:</b> Take away, home delivery service</p>
+      <p><b>Phone Number:</b>123-456-789</p>
+
+      <button class="locationR1">
+        <a href="https://www.google.com.mx/maps/@19.3503783,-99.6007457,15z" class="linkR1">Location</a>
+      </button>
+
     </div>
 
+
     <div class="right2">
-      <figure>
-        <picture>
-          <img src="images/placeholder.PNG" data-src="images/r2.PNG" alt="brides_store" class="r1">
-        </picture>
-        <h3>GO BRIDES!</h3>
-        <p>
-          Women's bridal fashion, wedding dresses, accessories, shoes and headdresses from renowned design firms.
-        </p>
-        <p>
-          <b>Service Options:</b> Online advice and face-to-face visits</p>
-        <p>
-          <b>Phone Number:</b>123-456-789</p>
-        <button class="locationR1">
-          <a href="https://www.google.com.mx/maps/@19.3503783,-99.6007457,15z" class="linkR1">Location</a>
-        </button>
-      </figure>
+      <picture>
+        <img src="images/placeholder.PNG" data-src="images/r2.PNG" alt="brides_store" class="r2">
+      </picture>
+      
+      <h3>GO BRIDES!</h3>
+      <p>
+        Women's bridal fashion, wedding dresses, accessories, shoes and headdresses from renowned design firms.
+      </p>
+      <p><b>Service Options:</b> Online advice and face-to-face visits</p>
+      <p><b>Phone Number:</b>123-456-789</p>
+
+      <button class="locationR2">
+        <a href="https://www.google.com.mx/maps/@19.3503783,-99.6007457,15z" class="linkR1">Location</a>
+      </button>
+
     </div>
 
     <div class="right3">
-      <figure>
-        <picture>
-          <img src="images/placeholder.PNG" data-src="images/r3.PNG" alt="rent_cars" class="r1">
-        </picture>
-        <h3>New Car City</h3>
-        <p>
-          Car rental agency in Mexico City
-        </p>
-        <p>
-          <b>Service Options:</b> Online advice and face-to-face visits</p>
-        <p>
-          <b>Phone Number:</b>123-456-789</p>
-        <button class="locationR1">
-          <a href="https://www.google.com.mx/maps/@19.3503783,-99.6007457,15z" class="linkR1">Location</a>
-        </button>
-      </figure>
+      <picture>
+        <img src="images/placeholder.PNG" data-src="images/r3.PNG" alt="rent_cars" class="r3">
+      </picture>
+
+      <h3>New Car City</h3>
+      <p>
+        Car rental agency in Mexico City
+      </p>
+      <p><b>Service Options:</b> Online advice and face-to-face visits</p>
+      <p><b>Phone Number:</b>123-456-789</p>
+
+      <button class="locationR1">
+        <a href="https://www.google.com.mx/maps/@19.3503783,-99.6007457,15z" class="linkR1">Location</a>
+      </button>
+
     </div>
 
     
     <div class="left1">
-      <figure>
+
+      <h2 class="eventH2">EVENTS</h2>
+
+      <section class="event1">
         <picture>
-          <img src="images/placeholder.PNG" data-src="images/l1.PNG" alt="concert" class="r1">
+          <img src="images/placeholder.PNG" data-src="images/l1.PNG" alt="concert" class="eventimg">
+        </picture>    
+
+        <h3>Van Gogh's Ear concert</h3>
+        <p><b class="bEvents">Details:</b> Friday, March 25, 20:30 || Saturday, March 26, 00:30</p>
+        <p><b class="bEvents">Phone Number:</b> (55) 9138-1350</p>
+
+        <button class="event">
+          <a href="https://www.viagogo.com.mx/Boletos-Conciertos/Pop-Rock/La-Oreja-de-Van-Gogh-Boletos?AffiliateID=49&adposition=&PCID=PSMXGOOCONLAOR075234BEEFC&AdID=574377139083&MetroRegionID=&psc=%2c&ps=cc-MX&ps_p=0&ps_c=14733005995&ps_ag=135696176081&ps_tg=kwd-1522378709263&ps_ad=574377139083&ps_adp=%2c&ps_fi=%2c&ps_li=%2c&ps_lp=9073878&ps_n=g&ps_d=c&gclid=CjwKCAjw_tWRBhAwEiwALxFPoTdpAuBmpmVrFhQgvNGgmsV1eQqevQgIn0Tdi0wnCYPwpTcpZ8CNeBoCN74QAvD_BwE" class="linkevent">Buy tickets now!</a>
+        </button>
+      </section>
+
+      <section class="event1">
+        <picture>
+          <img src="images/placeholder.PNG" data-src="images/l2.PNG" alt="lila_downs" class="eventimg">
         </picture>
-        <h2>EVENTS</h2>
-          <section class="event1">
-            <h3>Van Gogh's Ear concert</h3>
-            <p>
-              <b class="bEvents">Details:</b> Friday, March 25, 20:30 || Saturday, March 26, 00:30</p>
-            <p>
-              <b class="bEvents">Phone Number:</b>(55) 9138-1350</p>
-            <button class="event">
-              <a href="https://www.viagogo.com.mx/Boletos-Conciertos/Pop-Rock/La-Oreja-de-Van-Gogh-Boletos?AffiliateID=49&adposition=&PCID=PSMXGOOCONLAOR075234BEEFC&AdID=574377139083&MetroRegionID=&psc=%2c&ps=cc-MX&ps_p=0&ps_c=14733005995&ps_ag=135696176081&ps_tg=kwd-1522378709263&ps_ad=574377139083&ps_adp=%2c&ps_fi=%2c&ps_li=%2c&ps_lp=9073878&ps_n=g&ps_d=c&gclid=CjwKCAjw_tWRBhAwEiwALxFPoTdpAuBmpmVrFhQgvNGgmsV1eQqevQgIn0Tdi0wnCYPwpTcpZ8CNeBoCN74QAvD_BwE" class="linkevent">Buy tickets now!</a>
-            </button>
-          </section>
 
-          <section class="event2">
-            <picture>
-              <img src="images/placeholder.PNG" data-src="images/l2.PNG" alt="lila_downs" class="r1">
-            </picture>
-            <h3>Lila Downs at Palace of Fine Arts</h3>
-            <p>
-              <b class="bEvents">Details:</b> Tuesday, March 22, 20:00 ||  Wednesday, March 23, 00:00</p>
-            <p>
-              <b class="bEvents">Where:</b> Palace of Fine Arts, CDMX</p>
-            <button class="event">
-              <a href="https://www.viagogo.com.mx/Boletos-Conciertos/Musica-del-Mundo/Lila-Downs-Boletos?AffiliateID=49&adposition=&PCID=PSMXGOOCONLILA080FC353FA5&AdID=570976528513&MetroRegionID=&psc=%2c&ps=%2c&ps_p=0&ps_c=13554895377&ps_ag=123401711413&ps_tg=kwd-360239366076&ps_ad=570976528513&ps_adp=%2c&ps_fi=%2c&ps_li=%2c&ps_lp=9073878&ps_n=g&ps_d=c&gclid=CjwKCAjw_tWRBhAwEiwALxFPoS063b5O298FInS0xyJpUq65mXs8TnHhlRD6McwFiUpAo-_3eFvHzhoCBU4QAvD_BwE" class="linkevent">Buy tickets now!</a>
-            </button>
-          </section>
+        <h3>Lila Downs at Palace of Fine Arts</h3>
+        <p><b class="bEvents">Details:</b> Tuesday, March 22, 20:00 ||  Wednesday, March 23, 00:00</p>
+        <p><b class="bEvents">Where:</b> Palace of Fine Arts</p>
 
-      </figure>
+        <button class="event">
+          <a href="https://www.viagogo.com.mx/Boletos-Conciertos/Musica-del-Mundo/Lila-Downs-Boletos?AffiliateID=49&adposition=&PCID=PSMXGOOCONLILA080FC353FA5&AdID=570976528513&MetroRegionID=&psc=%2c&ps=%2c&ps_p=0&ps_c=13554895377&ps_ag=123401711413&ps_tg=kwd-360239366076&ps_ad=570976528513&ps_adp=%2c&ps_fi=%2c&ps_li=%2c&ps_lp=9073878&ps_n=g&ps_d=c&gclid=CjwKCAjw_tWRBhAwEiwALxFPoS063b5O298FInS0xyJpUq65mXs8TnHhlRD6McwFiUpAo-_3eFvHzhoCBU4QAvD_BwE" class="linkevent">Buy tickets now!</a>
+        </button>
+      </section>
+
     </div>
 
    

@@ -2,9 +2,8 @@
 /*  ------------- FULL PAGE STUF --------------------*/
 
 body {
-  margin: 2px;
-  width: 380px;
-    
+  margin: 5px;
+  width: 390px;
 }
 
 header{
@@ -12,36 +11,41 @@ header{
   display: flex;
   margin: 20px;
   border-radius: 20px;
-  padding: 6px;
-  max-width: 320px;
+  margin-right: 20px;
 }
 
+/*  ------------- TITLE --------------------*/
 
+.title{
+  margin-left: -80px;
+}
 
 /*  ------------- NAV --------------------*/
 
 nav button{
   background-color: transparent;
   border: none;
-  font-size: 30px;
+  font-size: 23px;
   color: #555;
-  position: absolute;
-  right: 30px;
-  top: 25px;
+  position: relative;
+  left: 250px;
+  top: -110px;
 }
 
 nav ul{
   list-style-type: none;
-  padding: 5px;
   text-align: center;
-  width: 250px;
-  margin-left: -40px;
+  width: 280px;
+  position: relative;
+  left: 115px;
+  top: -10px;
+  margin-bottom: 5px;
 }
 
 nav ul li a{
   display: block;
   padding: .3rem 2vw;
-  text-decoration: none;
+  font-size: 14px;
   color: #333;
   border-top: 1px solid rgba(90, 89, 89, 0.5);
 }
@@ -65,12 +69,69 @@ nav ul.open{display: block;}
 #hamburgerBtn.open span:nth-child(1) {display: none;}
 #hamburgerBtn.open span:nth-child(2) {display: block;}
 
+nav ul.open{margin-left: -180px;}
+
+
+/*  ------------- SECTIONS --------------------*/
+
+.center1{
+  margin-top: 20px;
+  margin-bottom: 200px;
+  border: rgba(130, 138, 168, 0.2);
+}
+
+.center2{
+  background-color: rgba(130, 138, 168, 0.2);
+  padding: 2px;
+  height: 290px;
+  margin-bottom: 50px;
+  max-width: 300px;
+  margin-left: 45px;
+  margin-right: 10px;
+  top: -20px;
+  border-radius: 20px;
+}
+
+.right2{
+  margin: 20px;
+}
+
+.right3{
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.left1{
+  background-color: rgba(130, 138, 168, 0.2);
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.event1{
+  margin-bottom: 30px;
+  margin-top: 20px;
+  margin: 10px;
+  max-width: 380px;
+}
 
 /*  ------------- TEXT --------------------*/
 
 .subtitle{
-  margin: -.1rem;
+  margin-bottom: -30px;
   margin-top: -20px;
+}
+
+.hero_title{
+  position: relative;
+  top: 32px;
+  left: 40px;
+  display: block;
+  text-align: center;
+  width: 120px;
+  padding: 2px;
+  font-size: 18px;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
 }
 
 .footerP{
@@ -86,6 +147,12 @@ h1{
   text-align: center;
 }
 
+.h3_center2{
+  font-size: 20px;
+  color: rgb(53, 13, 163);
+  margin-bottom: -10px;
+}
+
 b{
   color: rgb(29, 34, 94);
 }
@@ -93,46 +160,87 @@ b{
 .bEvents{
   color: rgb(134, 5, 5);
 }
+
+h3{
+text-align: center;
+}
+
+.eventH2{
+  padding: 2%;
+  margin-left: 30px;
+  color: rgb(85, 32, 32);
+  text-align: center;
+}
+
+.eventH2:hover{
+  color: beige;
+  background-color: red;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.principal_p{
+  padding: 20px;
+}
+
+.second_p{
+  padding: 20px;
+  margin-top: -30px;
+}
+
 /*  ------------- IMAGES --------------------*/
 
 .logo{
-  padding: 2%;
   max-height: 60px;
+  margin-top: 20px;
 }
 
 .socialmedia{
-  position: absolute;
-  top: 65px;
-  right: 30px;
+  position: relative;
+  left: 190px;
+  top: 10px;
 }
 
 .img1{
-  max-width: 300px ;
+  max-width: 340px ;
+  margin-left: 25px;
 }
 
 .r1{
   width: 300px;
+  margin-left: 50px;
+  margin-top: 30px;
 }
 
-/*  ------------- FIGCAPTIONS --------------------*/
-
-figcaption{
-  text-align: center;
-  color: rgb(41, 40, 40);
-  font-family: 'Roboto', sans-serif;
-  font-size: 12px;
+.r2{
+  width: 300px;
+  margin-left: 30px;
 }
+
+.r3{
+  width: 300px;
+  margin-left: 50px;
+}
+
+.eventimg{
+  margin-left: 40px;
+  width: 300px;
+}
+
+.eventimg:hover{
+  box-shadow: 0px 0 30px rgba(88, 20, 8, 0.63);
+
+}
+
 
 /*  ------------- FOOTER --------------------*/
 
 
 footer{
   background-color: #eee;
-  margin-left: 20px;
-  max-width: 320px;
   border-radius: 20px;
   margin-bottom: 20px;
-  padding: 10px;
+  margin: 20px;
 }
 
 .footer_line{
@@ -144,8 +252,10 @@ footer{
 }
 
 .updated_date{
-  margin-left: 30px;
+  margin-left: -10px;
   margin-top: 20px;
+  margin-bottom: 40px;
+  height: 60px;
 }
 
 
@@ -154,21 +264,24 @@ footer{
 #date{
   text-align: center;
   background-color: rgb(166, 184, 206);
-  color: #eee;
-  max-width: 250px;
-  margin-left: 70px;
-  margin-top: 10px;
+  color: rgb(16, 43, 59);
+  margin-top: 30px;
+  width: 260px;
+  margin-left: -10px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: -10px;
 }
+
 
 /*  ------------- LINKS --------------------*/
 
-a{
+.a_cite{
   text-decoration: none;
   font-size: 10px;
   color: #333;
 }
 
-a:hover{
+.a_cite:hover{
   color: lightslategray;
 }
 
@@ -182,69 +295,68 @@ a:hover{
   font-size: 12px;
 }
 
-/*  ------------- SECTIONS --------------------*/
-
-.center1{
-  padding: 2px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border: rgba(130, 138, 168, 0.2);
+a{
+  text-decoration: none;
 }
 
-.center2{
-  background-color: rgba(130, 138, 168, 0.2);
-  padding: 2px;
-  margin-top: 20px;
-  margin-bottom: 50px;
-  margin-left: 15px;
+.link_center2{
+  position: relative;
+  left: 110px;
+  top: -25px;
 }
 
-.right2{
-  background-color: rgba(130, 138, 168, 0.2);
-  margin-top: 30px;
-  padding: 2px;
-  margin-left: 15px;
+.link_center2:hover{
+  color: lightslategray;
 }
 
-.right3{
-  margin-top: 30px;
-  margin-bottom: 60px;
+.join_link{
+  color: rgb(177, 248, 201);
 }
 
-.left1{
-  background-color: rgba(130, 138, 168, 0.2);
-  padding: 2px;
-  margin-top: 20px;
-  margin-bottom: 50px;
-  margin-left: 15px;
-}
-
-.event1{
-  margin-bottom: 60px;
-}
 /*  ------------- VIDEOS --------------------*/
 
-video{
-  max-width: 330px;
-  margin-left: -20px;
-}
 
 /*  ------------- BUTTONS --------------------*/
 
+.join{
+  background-color: rgb(39, 71, 97);
+  padding: 4%;
+  border-radius: 20px;
+  border-color: transparent;
+  position: absolute;
+  font-size: 12px;
+  left: 230px;
+  top: 350px;
+  box-shadow: 0px 0 20px rgba(170, 235, 231, 0.781);
+}
+
 .locationR1{
   color: white;
-  margin-left: 120px;
+  margin-left: 150px;
   background-color: rgb(124, 168, 197);
   width: 100px;
   height: 30px;
   border-color: transparent;
+  margin-bottom: 30px;
+}
+
+.locationR2{
+  color: white;
+  margin-left: 130px;
+  background-color: rgb(124, 168, 197);
+  width: 100px;
+  height: 30px;
+  border-color: transparent;
+  margin-bottom: 30px;
 }
 
 .event{
   color: white;
-  margin-left: 100px;
-  background-color: rgb(134, 5, 5);
+  margin-left: 135px;
+  background-color: rgb(168, 8, 8);
   width: 100px;
-  height: 30px;
+  height: 40px;
   border-color: transparent;
+  margin-bottom: 30px;
 }
+
