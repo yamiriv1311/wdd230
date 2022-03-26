@@ -2,8 +2,7 @@
 /*  ------------- FULL PAGE STUF --------------------*/
 
 body {
-  margin: 5px;
-  width: 390px;
+  width: 370px;
 }
 
 header{
@@ -12,12 +11,23 @@ header{
   margin: 20px;
   border-radius: 20px;
   margin-right: 20px;
+  margin-left: 20px;
+}
+
+main{
+  display: grid;
+  grid-template-rows: 370px auto, repeat(5, 1fr);
+  margin: 2px;
 }
 
 /*  ------------- TITLE --------------------*/
 
 .title{
-  margin-left: -80px;
+  margin-left: -100px;
+}
+
+.a_title{
+  color: #333;
 }
 
 /*  ------------- NAV --------------------*/
@@ -27,9 +37,9 @@ nav button{
   border: none;
   font-size: 23px;
   color: #555;
-  position: relative;
-  left: 250px;
-  top: -110px;
+  position: absolute;
+  left: 300px;
+  top: 40px;
 }
 
 nav ul{
@@ -37,9 +47,10 @@ nav ul{
   text-align: center;
   width: 280px;
   position: relative;
-  left: 115px;
-  top: -10px;
-  margin-bottom: 5px;
+  left: 108px;
+  top: 10px;
+  margin-bottom: 20px;
+  margin-top: 10px;
 }
 
 nav ul li a{
@@ -75,43 +86,42 @@ nav ul.open{margin-left: -180px;}
 /*  ------------- SECTIONS --------------------*/
 
 .center1{
-  margin-top: 20px;
-  margin-bottom: 200px;
+  grid-row: 1;
+  margin-top: -10px;
   border: rgba(130, 138, 168, 0.2);
-}
-
-.center2{
-  background-color: rgba(130, 138, 168, 0.2);
-  padding: 2px;
-  height: 290px;
-  margin-bottom: 50px;
-  max-width: 300px;
-  margin-left: 45px;
-  margin-right: 10px;
-  top: -20px;
-  border-radius: 20px;
-}
-
-.right2{
-  margin: 20px;
-}
-
-.right3{
-  margin-top: 30px;
-  margin-bottom: 60px;
+  margin-bottom: 90px;
 }
 
 .left1{
+  grid-row: 2;
+  position: relative;
+  width: 348px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 520px;
   background-color: rgba(130, 138, 168, 0.2);
-  margin-top: 20px;
-  margin-bottom: 50px;
+  margin-bottom: 40px
 }
 
-.event1{
-  margin-bottom: 30px;
-  margin-top: 20px;
-  margin: 10px;
-  max-width: 380px;
+.weather{
+  grid-row: 3;
+}
+
+.right_section{
+  grid-row: 4;
+  background-color: red;
+}
+
+.center2{
+  grid-row: 5;
+  background-color: rgba(130, 138, 168, 0.2);
+  padding: 2px;
+  height: 290px;
+  max-width: 300px;
+  margin-left: 29px;
+  margin-right: 10px;
+  border-radius: 20px;
+  margin-top: -60px;
 }
 
 /*  ------------- TEXT --------------------*/
@@ -123,8 +133,7 @@ nav ul.open{margin-left: -180px;}
 
 .hero_title{
   position: relative;
-  top: 32px;
-  left: 40px;
+  left: 30px;
   display: block;
   text-align: center;
   width: 120px;
@@ -166,7 +175,6 @@ text-align: center;
 }
 
 .eventH2{
-  padding: 2%;
   margin-left: 30px;
   color: rgb(85, 32, 32);
   text-align: center;
@@ -176,7 +184,8 @@ text-align: center;
   color: beige;
   background-color: red;
   margin-right: 20px;
-  margin-left: 20px;
+  margin-left: 30px;
+  text-align: center;
 }
 
 .principal_p{
@@ -197,8 +206,8 @@ text-align: center;
 
 .socialmedia{
   position: relative;
-  left: 190px;
-  top: 10px;
+  left: 180px;
+  top: 20px;
 }
 
 .img1{
@@ -206,51 +215,17 @@ text-align: center;
   margin-left: 25px;
 }
 
-.r1{
-  width: 300px;
-  margin-left: 50px;
-  margin-top: 30px;
-}
-
-.r2{
-  width: 300px;
-  margin-left: 30px;
-}
-
-.r3{
-  width: 300px;
-  margin-left: 50px;
-}
-
 .eventimg{
-  margin-left: 40px;
-  width: 300px;
-}
-
-
-.r2{
-  width: 300px;
-  margin-left: 30px;
-}
-
-.r3{
-  width: 300px;
-  margin-left: 50px;
-}
-
-.eventimg{
-  margin-left: 40px;
-  width: 300px;
+  margin-left: 37px;
+  width: 280px;
 }
 
 .eventimg:hover{
   box-shadow: 0px 0 30px rgba(88, 20, 8, 0.63);
-
 }
 
 
 /*  ------------- FOOTER --------------------*/
-
 
 footer{
   background-color: #eee;
@@ -283,7 +258,7 @@ footer{
   color: rgb(16, 43, 59);
   margin-top: 30px;
   width: 260px;
-  margin-left: -10px;
+  margin-left: -24px;
   font-family:Georgia, 'Times New Roman', Times, serif;
   margin-bottom: -10px;
 }
@@ -330,11 +305,15 @@ a{
 }
 
 /*  ------------- VIDEOS --------------------*/
+
 video{
+  position: relative;
+  top: -20px;
   max-width: 320px;
-  margin-left: 37px;
+  margin-left: 25px;
   margin-bottom: -204px;
 }
+
 /*  ------------- BUTTONS --------------------*/
 
 .join{
@@ -342,10 +321,10 @@ video{
   padding: 4%;
   border-radius: 20px;
   border-color: transparent;
-  position: absolute;
+  position: relative;
   font-size: 12px;
-  left: 230px;
-  top: 350px;
+  left: 220px;
+  top: 40px;
   box-shadow: 0px 0 20px rgba(170, 235, 231, 0.781);
 }
 
@@ -371,7 +350,7 @@ video{
 
 .event{
   color: white;
-  margin-left: 135px;
+  margin-left: 137px;
   background-color: rgb(168, 8, 8);
   width: 100px;
   height: 40px;
@@ -379,3 +358,13 @@ video{
   margin-bottom: 30px;
 }
 
+/*  ------------- BANNER --------------------*/
+
+#banner{
+  color: rgb(4, 77, 105);
+  position: relative;
+  top: 20px;
+  left: -30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
