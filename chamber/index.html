@@ -135,9 +135,16 @@
 
     <div class="weather">
       <h2>Weather</h2>
-      <div class="image_grades">
-          <img src="images/weather_img.png" alt="weather_img">
-          <p><span id="grades"></span> &deg;C</p>
+      <div class="image_desc">
+          <figure>
+            <img src="" alt="icon_weather" id="icon_weather">
+            <h3><span id="desc_weather"></span></h3>
+          </figure>
+      </div>
+      <div>
+        <h3><span id="temperature"></span> &deg;F</h3>
+        <p>Wind Speed: <span id="wind_speed"></span> km/h</p>
+        <p>Wind Chill: <span id="wind_chill"></span> &deg;F</p>
       </div>
     </div>
 
@@ -160,5 +167,7 @@
 
 
   <script src="js/javascript.js"></script>
+  <script src="js/windchill.js"></script>
+
 </body>
 </html>
