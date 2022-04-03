@@ -3,22 +3,27 @@
 @media only screen and (min-width: 900px) {
 
   body{
-    max-width: 2000px;
-  }
-  nav ul li a{
-    padding: .5rem 1rem;
+    width: 1260px;
   }
 
+  header{
+    height: 100px;
+  }
+
+  nav ul li a{
+    padding: .5rem 2rem;
+    position: relative;
+    margin-top: -40px;
+
+  }
 
   nav button{
     display: none;
   }
 
-  
   nav ul#ul_navigation{
     display: flex;
-    margin-left: 180px;
-
+    margin-left: 210px;
   }
   
   nav ul li a{
@@ -26,14 +31,34 @@
     border-right: 1px solid rgba(0, 0, 0, 0.3);
   }
 
-
   .socialmedia{
-    position: absolute;
-    margin-left: 830px;
-    margin-top: 40px;
+    margin-left: 920px;
+    top: 49px;
   }
 
+  /*  ------------- TEXT --------------------*/
 
+  .title{
+    margin-left: -770px;
+  }
+
+    
+  /*  ------------- DATE --------------------*/
+
+  #date{
+    margin-left: 210px;
+    position: relative;
+    top: 10px;
+  }
+
+  /*  ------------- IMAGES --------------------*/
+
+  .logo{
+    max-height: 100px;
+    margin-top: 20px;
+  }
+
+  
 }
 
 
