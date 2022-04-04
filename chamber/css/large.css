@@ -1,20 +1,29 @@
 
-
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 834px) {
 
   body{
-    width: 1260px;
+    width: 1250px;
   }
 
+  main figure.central_image{
+    width: 80%;
+    margin-left: 65px;
+  }
+
+  main{
+    display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 1fr;
+  }
+    
   header{
-    height: 100px;
+    height: 140px;
   }
 
   nav ul li a{
     padding: .5rem 2rem;
     position: relative;
     margin-top: -40px;
-
   }
 
   nav button{
@@ -24,6 +33,7 @@
   nav ul#ul_navigation{
     display: flex;
     margin-left: 210px;
+    margin-top: -40px;
   }
   
   nav ul li a{
@@ -39,7 +49,7 @@
   /*  ------------- TEXT --------------------*/
 
   .title{
-    margin-left: -770px;
+    margin-left: -670px;
   }
 
     
@@ -51,6 +61,39 @@
     top: 10px;
   }
 
+  /*  ------------- SECTIONS --------------------*/
+
+  .center1{
+    grid-column: 2;
+    grid-row: 1/1;
+  }
+
+  .center2{
+    grid-column: 2;
+    grid-row: 2/2;
+  }
+
+  .right_section{
+    grid-column: 3;
+    display: grid;
+    background-color: rgb(2, 13, 58);
+    width: 10px;
+    position: relative;
+    left: 40px;
+  }
+
+  .left_section{
+    display: grid;
+    grid-column: 1;
+    width: 70px;
+  }
+
+  .left3{
+   grid-column: 1;
+  }
+  
+
+
   /*  ------------- IMAGES --------------------*/
 
   .logo{
@@ -58,7 +101,19 @@
     margin-top: 20px;
   }
 
+  .centered_imag{
+    margin-left: 260px;
+  }
+
+
+  /*  ------------- BANNER --------------------*/
+
+  #banner{
+    position: relative;
+    left: 90px;
+  }
   
+
 }
 
 

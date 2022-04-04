@@ -4,6 +4,14 @@ body {
   width: 370px;
 }
 
+main figure.central_image{
+  width: 80%;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+main figure.central_image img{ width: 100%;}
+
 header{
   background-color: #eee;
   display: flex;
@@ -19,10 +27,22 @@ main{
   margin: 2px;
 }
 
+/*  ------------- BANNER --------------------*/
+
+#banner{
+  color: rgb(4, 77, 105);
+  position: relative;
+  top: 20px;
+  left: -30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
 /*  ------------- TITLE --------------------*/
 
 .title{
-  margin-left: -100px;
+  position: relative;
+  left: -37px;
 }
 
 .a_title{
@@ -88,22 +108,38 @@ nav ul.open{margin-left: -180px;}
   grid-row: 1;
   margin-top: -10px;
   border: rgba(130, 138, 168, 0.2);
-  margin-bottom: 90px;
+  margin-bottom: -90px;
 }
 
 .left1{
   grid-row: 2;
+  width: 280px;
   position: relative;
-  width: 348px;
-  margin-left: 10px;
-  margin-right: 10px;
-  height: 520px;
+  left: 46px;
+  height: 490px;
   background-color: rgba(130, 138, 168, 0.2);
-  margin-bottom: 40px
+  margin-bottom: 40px;
+  border-radius: 20px;
 }
 
-.weather{
+.weather_section{
   grid-row: 3;
+  background-color: rgb(2, 13, 58);
+  margin-bottom: 80px;
+  width: 290px;
+  position: relative;
+  left: 40px;
+  margin-top: -10px;
+  height: 400px;
+}
+
+.weather_subsection{
+  margin:40px;
+  padding: 2px;
+  background-color: rgb(22, 37, 77);
+  box-shadow: 2px 1px 10px #000000;
+  position: relative;
+  top: 20px;
 }
 
 .center2{
@@ -112,8 +148,9 @@ nav ul.open{margin-left: -180px;}
   padding: 2px;
   height: 290px;
   max-width: 300px;
-  margin-left: 29px;
+  margin-left: 30px;
   margin-right: 10px;
+  margin-bottom: 30px;
   border-radius: 20px;
   margin-top: -60px;
 }
@@ -122,6 +159,9 @@ nav ul.open{margin-left: -180px;}
   grid-row: 5;
   background-color: rgb(2, 13, 58);
   max-width: 360px;
+  width: 290px;
+  position: relative;
+  left: 40px;
 }
 
 .right1{
@@ -131,6 +171,11 @@ nav ul.open{margin-left: -180px;}
   box-shadow: 2px 1px 10px #000000;
 }
 
+.left3{
+  position: absolute;
+  margin-left: -10000000px;
+}
+
 /*  ------------- TEXT --------------------*/
 
 .subtitle{
@@ -138,16 +183,15 @@ nav ul.open{margin-left: -180px;}
   margin-top: -20px;
 }
 
-.hero_title{
-  position: relative;
-  left: 30px;
-  display: block;
-  text-align: center;
-  width: 120px;
-  padding: 2px;
-  font-size: 18px;
-  background-color: transparent;
+.welcome{
+  font-size: 13px;
+  width: 100px;
+  padding: 2%;
   color: rgb(255, 255, 255);
+  position: relative;
+  top: -200px;
+  left: 40px;
+  background-color: rgb(9, 2, 43);
 }
 
 .footerP{
@@ -182,7 +226,7 @@ text-align: center;
 }
 
 .eventH2{
-  margin-left: 30px;
+  margin-left: 20px;
   color: rgb(85, 32, 32);
   text-align: center;
 }
@@ -207,9 +251,9 @@ text-align: center;
 .truck_title{
   color: rgba(142, 190, 230, 0.884);
   margin-left: 15px;
-  font-size: 20px;
+  font-size: 24px;
   margin-bottom: -10px;
-  text-shadow: 2px 2px 20px #ffffff
+  text-shadow: 2px 2px 20px #ffffff;
 }
 
 .truck_text{
@@ -222,11 +266,21 @@ text-align: center;
   color: rgba(255, 255, 255, 0.685);
   font-size: 19px;
 }
+
+.weather_title{
+  color: rgba(142, 190, 230, 0.884);
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: -10px;
+  text-shadow: 2px 2px 20px #ffffff;
+}
+
+.last_mod_text{
+  color: #000000;
+}
+
 /*  ------------- IMAGES --------------------*/
 
-.centered_imag{
-  max-width: 340px;
-}
 
 .logo{
   max-height: 60px;
@@ -245,8 +299,8 @@ text-align: center;
 }
 
 .eventimg{
-  margin-left: 37px;
-  width: 280px;
+  margin-left: 30px;
+  width: 80%;
 }
 
 .eventimg:hover{
@@ -265,17 +319,18 @@ footer{
 
 .footer_line{
   width: 290px;
+  margin-top: -20px;
 }
 
 .footer_sec{
   display: flex;
+  margin-left: 40px;
 }
 
-.updated_date{
-  margin-left: -10px;
-  margin-top: 20px;
-  margin-bottom: 40px;
-  height: 60px;
+.email_number_footer{
+  position: relative;
+  top: -10px;
+  margin-left: 160px;
 }
 
 
@@ -292,6 +347,48 @@ footer{
   margin-bottom: -10px;
 }
 
+/*  ------------- WEATHER --------------------*/
+
+.image_and_desc{
+  display: felx;
+}
+
+.icon_weather{
+  height: 120px;
+  margin-left: -40px;
+  margin-top: 20px;
+}
+
+.description_icon{
+  color: #eee;
+  position: relative;
+  left: 70px;
+  top: 10px;
+  text-transform: capitalize;
+  font-size: 19px;
+  margin-top: -20px;
+}
+
+#temperature{
+  font-size: 25px;
+  color: aliceblue;
+  position: relative;
+  top: -160px;
+  margin-left: 90px;
+}
+
+.line_weather{
+  width: 180px;
+}
+
+.p_weather{
+  color: rgb(233, 237, 237);
+  font-size: 14px;
+}
+
+.chill_and_speed{
+  margin-top: -47px;
+}
 
 /*  ------------- LINKS --------------------*/
 
@@ -330,78 +427,59 @@ a{
 }
 
 .join_link{
-  color: rgb(177, 248, 201);
+  color: rgb(214, 237, 247);
 }
 
-
-
+.location_link{
+  position: relative;
+  margin-left: 40px;
+  top: -60px;
+  color: rgb(84, 89, 243);
+}
 
 /*  ------------- BUTTONS --------------------*/
 
 .join{
-  background-color: rgb(39, 71, 97);
+  background-color: rgb(9, 11, 85);
   padding: 4%;
   border-radius: 20px;
   border-color: transparent;
   position: relative;
   font-size: 12px;
-  left: 220px;
-  top: 40px;
+  left: 200px;
+  top: -140px;
   box-shadow: 0px 0 20px rgba(170, 235, 231, 0.781);
-}
-
-.locationR1{
-  color: white;
-  margin-left: 150px;
-  background-color: rgb(124, 168, 197);
-  width: 100px;
-  height: 30px;
-  border-color: transparent;
-  margin-bottom: 30px;
-}
-
-.locationR2{
-  color: white;
-  margin-left: 130px;
-  background-color: rgb(124, 168, 197);
-  width: 100px;
-  height: 30px;
-  border-color: transparent;
-  margin-bottom: 30px;
 }
 
 .event{
   color: white;
-  margin-left: 137px;
+  margin-left: 90px;
   background-color: rgb(168, 8, 8);
   width: 100px;
   height: 40px;
   border-color: transparent;
-  margin-bottom: 30px;
 }
 
 /*  ------------- ICONS --------------------*/
 
 .truck{
-  width: 200px;
-  margin-left: 60px;
+  width: 150px;
+  margin-left: 50px;
   margin-bottom: -30px;
+}
+
+.code{
+  width: 150px;
+  margin-left: 56px;
+  margin-top: 34px;
+}
+
+.icon_location{
+  max-height: 17px;
 }
 
 /*  ------------- hr --------------------*/
 
 .truck_line{
   width: 230px;
-}
-
-
-/*  ------------- BANNER --------------------*/
-
-#banner{
-  color: rgb(4, 77, 105);
-  position: relative;
-  top: 20px;
-  left: -30px;
-  margin-bottom: 30px;
-  text-align: center;
 }

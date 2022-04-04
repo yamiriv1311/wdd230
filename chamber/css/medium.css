@@ -2,11 +2,18 @@
 
 /* -----------  GRID STUFF ------------- */
 
-@media only screen and (min-width: 430px) {
+@media only screen and (min-width: 390px) {
 
   body{
-    width: 800px;
+    width: 750px;
   }
+
+  main figure.central_image{
+    margin-left: 40px;
+    margin-top: -40px;
+    width: 90%;
+  }
+
 
   /* ----------- GENERAL STUFF ------------- */
 
@@ -27,8 +34,8 @@
   
   nav button{
     position: relative;
-    top: -55px;
-    left: 610px;
+    top: -105px;
+    left: 600px;
   }
 
   footer{
@@ -38,7 +45,7 @@
   nav ul{
     list-style-type: none;
     text-align: center;
-    width: 680px;
+    width: 660px;
     position: relative;
     left: 245px;
     top: -10px;
@@ -61,7 +68,7 @@
     margin-top: 100px;
   }
 
-   /* -----------  DATE ------------- */
+  /* -----------  DATE ------------- */
 
   .subtitle{
     margin-bottom: 140px;
@@ -80,18 +87,18 @@
   /* -----------  TEXT ------------- */
 
   .title{
-    margin-left: -320px;
+    margin-left: -240px;
   }
 
 
   .join_link{
     color: rgb(177, 248, 201);
-    font-size: 25px;
+    font-size: 21px;
   }
 
   .link_center2{
     position: relative;
-    left: 330px;
+    left: 290px;
   }
 
   .hero_title{
@@ -104,21 +111,248 @@
     font-size: 32px;
   }
 
- 
+  .welcome{
+    font-size: 20px;
+    width: 230px;
+    position: relative;
+    top: -450px;
+    left: 40px;
+  }
   
+  .h3_center2{
+    margin-left: 20px;
+  }
+
+  .left3_text{
+    color: rgb(8, 73, 130);
+  }
+
+  .eventH2{
+    margin-left: -26px;
+  }
+
+  .bEvents{
+    margin-left: -10px;
+  }
+
   /* -----------  BUTTONS ------------- */
 
   .join{
-    background-color: rgb(39, 71, 97);
     position: absolute;
-    left: 460px;
-    top: 470px;
-    box-shadow: 0px 0 10px rgba(50, 53, 53, 0.781);
+    left: 500px;
+    top: 600px;
+    padding: 0;
+    width: 190px;
+    background-color: rgb(9, 81, 85);
+
   }
   
-  /* -----------  IMAGES ------------- */
-  .centered_imag{
-    max-width: 760px;
+  /*  ------------- BANNER --------------------*/
+
+  #banner{
+    position: relative;
+    left: 60px;
   }
+  
+  /*  ------------- SECTIONS --------------------*/
+
+  .center1{
+    grid-row: 1;
+  }
+
+  .center2{
+    grid-row: 2;
+    height: 220px;
+    width: 90%;
+    margin-left: 38px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    border-radius: 0%;
+  }
+
+  .right_section{
+    grid-row: 3;
+    display: flex;
+    padding: .5rem 12rem;
+  }
+
+  .right1{
+    height: 390px;
+    width: 300px;
+  }
+
+  .R1{
+    position: relative;
+    left: -190px;
+  }
+
+  .R2{
+    position: relative;
+    right: 210px;
+  }
+  
+  .left3{
+    grid-row: 4;
+    position: relative;
+    left: 0;
+    padding: 2px;
+    background-color: rgba(130, 138, 168, 0.2);
+    box-shadow: 2px 1px 5px #000000;
+    width: 650px;
+    margin-left: 50px;
+    margin-top: 20px;
+    height: 130px;
+    margin-top: 40px;
+  }
+  
+  .weather_section{
+    grid-row: 5;
+    background-color: transparent;
+  }
+
+  .weather_subsection{
+    width: 220px;
+    position: relative;
+    top: 40px;
+    box-shadow: none;
+    background-color: rgb(22, 37, 77);
+    box-shadow: 2px 1px 5px #000000;   
+  }
+
+  .left1{
+    grid-row: 6;
+    width: 310px;
+    margin-left: -20px;
+    background-color: transparent;
+    margin-bottom: 40px;
+    border-radius: 20px;
+  }
+
+  .left_section{
+    display: flex;
+    height: 480px;
+    margin-top: 40px;
+    background-color: rgba(130, 138, 168, 0.2);
+    width: 640px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+  }
+
+  .upper_part{
+    display: flex;
+  }
+
+  .email_number_footer{
+    margin-left: 150px;
+    margin-top: 10px;
+  }
+  
+  /*  ------------- ICONS --------------------*/
+
+  .truck{
+    width: 170px;
+    margin-left: 70px;
+    margin-top: 10px;
+    margin-bottom: 16px;
+    position: relative;
+    top: 10px;
+  }
+
+  .code{
+    margin-left: 86px;
+    width: 140px;
+  }
+
+  /*  ------------- BUTTONS --------------------*/
+
+  .join_left3{
+    background-color: rgb(9, 81, 85);
+    padding: 2%;
+    width: 500px;
+    border-radius: 20px;
+    border-color: transparent;
+    position: relative;
+    font-size: 12px;
+    left: 80px;
+    top: 0px;
+    box-shadow: 0px 0 18px rgba(0, 0, 0, 0.781);
+  }
+
+
+  /*  ------------- IMAGES --------------------*/
+  .eventimg{
+    width: 70%;
+    margin-left: 30px;
+  }
+
+  /*  ------------- WEATHER --------------------*/
+
+  .weather_title{
+    color: rgba(3, 25, 43, 0.884);
+    text-align: center;
+    font-size: 23px;
+    position: relative;
+    top: -70px;
+    text-transform: uppercase;
+    margin-left: -20px;
+    width: 270px;
+  }
+  
+  .weather_title:hover{
+    color: beige;
+    background-color: rgb(14, 14, 82);
+  }
+
+  .icon_weather{
+    height: 120px;
+    margin-left: -40px;
+    margin-top: -50px;
+  }
+
+  .description_icon{
+    color: rgb(198, 229, 245);
+    position: relative;
+    left: 70px;
+    top: 10px;
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-top: -20px;
+  }
+
+  #temperature{
+    font-size: 30px;
+    color: rgb(251, 253, 255);
+    position: relative;
+    top: -150px;
+    margin-left: 100px;
+  }
+
+  .line_weather{
+    width: 200px;
+  }
+
+  .p_weather{
+    color: rgb(233, 237, 237);
+    font-size: 17px;
+  }
+
+  /*  ------------- FOOTER --------------------*/
+
+  .location_link{
+    top: 40px;
+  }
+
+  .email_number_footer{
+    position: relative;
+    top: 10px;
+    margin-left: 140px;
+  }
+
+  .footer_line{
+    width: 680px;
+    margin-top: 20px;
+  }
+
 }
 
