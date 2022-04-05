@@ -23,7 +23,6 @@ header{
 
 main{
   display: grid;
-  grid-template-rows: 370px repeat(5 1fr);
   margin: 2px;
 }
 
