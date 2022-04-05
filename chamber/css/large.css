@@ -13,7 +13,7 @@
     grid-template-rows: none;
     grid-auto-rows: 200px;
     margin: 0px;
-    margin-left: -20px;
+    margin-left: 6px;
   }
 
   main figure.central_image{
@@ -23,7 +23,7 @@
     
   header{
     height: 140px;
-    width: 1200px;
+    width: 1210px;
     margin-left:26px;
   }
 
@@ -86,7 +86,7 @@
     padding: 1%;
     position: absolute;
     top: 200px;
-    left: 294px;
+    left: 320px;
     border: none;
   }
 
@@ -278,8 +278,8 @@
     padding: 1%;
     width: 170px;
     position: absolute;
-    left: 690px;
-    top: 760px;
+    left: 700px;
+    top: 750px;
   }
 
 
@@ -305,8 +305,7 @@
     margin-bottom: 40px;
     margin-top: 60px;
     margin-left:26px;
-    width: 1200px;
-
+    width: 1210px;
   }
   
   /*  ------------- WEATHER --------------------*/
