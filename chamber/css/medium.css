@@ -95,7 +95,31 @@
   .join_link{
     color: rgb(177, 248, 201);
     font-size: 21px;
+    position: absolute;
+    left: 470px;
+    top: 600px;
+    padding: 2%;
+    width: 190px;
+    background-color: rgb(9, 81, 85);
+    text-align: center;
   }
+
+  
+  .join_link_left3{
+    color: rgb(177, 248, 201);
+    font-size: 25px;
+    position: absolute;
+    left: 14px;
+    top: 20px;
+    padding: 2%;
+    width: 600px;
+    background-color: rgb(9, 81, 85);
+    text-align: center;
+    border-radius: 20px;
+    border-color: transparent;
+    box-shadow: 0px 0 20px rgba(25, 25, 25, 0.781);
+  }
+
 
   .link_center2{
     position: relative;
@@ -126,6 +150,7 @@
 
   .left3_text{
     color: rgb(8, 73, 130);
+    margin-top: 70px;
   }
 
   .eventH2{
@@ -136,30 +161,7 @@
     margin-left: -10px;
   }
 
-  /* -----------  BUTTONS ------------- */
 
-  .join{
-    position: absolute;
-    left: 500px;
-    top: 600px;
-    padding: 0;
-    width: 190px;
-    background-color: rgb(9, 81, 85);
-  }
- 
-  .join_left3{
-    background-color: rgb(9, 81, 85);
-    padding: 2%;
-    width: 500px;
-    border-radius: 20px;
-    border-color: transparent;
-    position: relative;
-    font-size: 12px;
-    left: 80px;
-    top: 0px;
-    box-shadow: 0px 0 18px rgba(0, 0, 0, 0.781);
-  }
-  
   /*  ------------- BANNER --------------------*/
 
   #banner{

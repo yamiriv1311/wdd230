@@ -23,7 +23,7 @@ header{
 
 main{
   display: grid;
-  grid-template-rows: 370px, repeat(5, 1fr);
+  grid-template-rows: 370px repeat(5, 1fr);
   margin: 2px;
 }
 
@@ -123,7 +123,8 @@ nav ul.open{margin-left: -180px;}
   width: 280px;
   position: relative;
   left: 46px;
-  height: 490px;
+  height: 45
+  0px;
   background-color: rgba(130, 138, 168, 0.2);
   margin-bottom: 40px;
   border-radius: 20px;
@@ -416,7 +417,13 @@ footer{
 
 .linkevent{
   color: white;
-  font-size: 12px;
+  font-size: 17px;
+  padding: 2%;
+  margin-left: 80px;
+  background-color: rgb(168, 8, 8);
+  width: 100px;
+  height: 40px;
+  border-color: transparent;
 }
 
 a{
@@ -435,6 +442,15 @@ a{
 
 .join_link{
   color: rgb(214, 237, 247);
+  background-color: rgb(9, 11, 85);
+  padding: 4%;
+  border-radius: 20px;
+  border-color: transparent;
+  position: relative;
+  font-size: 12px;
+  left: 210px;
+  top: -110px;
+  box-shadow: 0px 0 20px rgba(170, 235, 231, 0.781);
 }
 
 .location_link{
@@ -444,28 +460,6 @@ a{
   color: rgb(84, 89, 243);
 }
 
-/*  ------------- BUTTONS --------------------*/
-
-.join{
-  background-color: rgb(9, 11, 85);
-  padding: 4%;
-  border-radius: 20px;
-  border-color: transparent;
-  position: relative;
-  font-size: 12px;
-  left: 200px;
-  top: -140px;
-  box-shadow: 0px 0 20px rgba(170, 235, 231, 0.781);
-}
-
-.event{
-  color: white;
-  margin-left: 90px;
-  background-color: rgb(168, 8, 8);
-  width: 100px;
-  height: 40px;
-  border-color: transparent;
-}
 
 /*  ------------- ICONS --------------------*/
 

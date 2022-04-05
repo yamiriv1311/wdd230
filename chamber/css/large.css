@@ -13,7 +13,7 @@
     grid-template-rows: none;
     grid-auto-rows: 200px;
     margin: 0px;
-    margin-left: -10px;
+    margin-left: -20px;
   }
 
   main figure.central_image{
@@ -23,7 +23,7 @@
     
   header{
     height: 140px;
-    margin-left: 40px;
+    margin-left:26px;
   }
 
   nav ul li a{
@@ -80,12 +80,12 @@
   }
 
   .welcome{
-    font-size: 17px;
-    width: 190px;
+    font-size: 20px;
+    width: 230px;
     padding: 1%;
     position: absolute;
     top: 200px;
-    left: 316px;
+    left: 294px;
     border: none;
   }
 
@@ -201,7 +201,7 @@
     position: absolute;
     padding: 2px;
     width: 260px;
-    margin-left: 33px;
+    margin-left: 37px;
     top: 820px;
     height: 190px;
     margin-top: 40px;
@@ -269,48 +269,41 @@
 
   /*  ------------- BUTTONS --------------------*/
 
-  .join{
-    position: absolute;
-    left: 700px;
-    top: 740px;
-    padding: 2px;
-    width: 190px;
-    background-color: rgb(9, 81, 85);
-  }
 
   .join_link{
     color: rgb(177, 248, 201);
     font-size: 22px;
+    background-color: rgb(9, 81, 85);
+    padding: 1%;
+    width: 170px;
+    position: absolute;
+    left: 690px;
+    top: 760px;
   }
 
-  .event{
-    position: absolute;
-    top: 340px;
-    left: -11px;
-    width: 120px;
-    height: 30px;
-  }
 
   .linkevent{
     font-size: 13px;
+    position: absolute;
+    top: 340px;
+    left: 10px;
+    width: 90px;
+    height: 20px;
+    
   }
 
-  .join_left3{
-    padding: 2%;
-    width: 220px;
-    position: relative;
-    font-size: 12px;
-    left: 20px;
-    margin-bottom: 10px;
+  .join_link_left3{
+    left: 10px;
+    top: 30px;
+    width: 230px;
+    font-size: 20px;
   }
 
   footer{
     position: relative;
     margin-bottom: 40px;
     margin-top: 60px;
-    margin-left: 40px;
-
-
+    margin-left:26px;
   }
   
   /*  ------------- WEATHER --------------------*/
