@@ -13,7 +13,7 @@
     margin-top: -40px;
     width: 90%;
   }
-
+  
 
   /* ----------- GENERAL STUFF ------------- */
 
@@ -87,7 +87,8 @@
   /* -----------  TEXT ------------- */
 
   .title{
-    margin-left: -240px;
+    margin-left: -2px;
+    font-size: 30px;
   }
 
 
@@ -325,8 +326,8 @@
     font-size: 30px;
     color: rgb(251, 253, 255);
     position: relative;
-    top: -150px;
-    margin-left: 100px;
+    top: -130px;
+    margin-left: 130px;
   }
 
   .line_weather{
@@ -353,6 +354,64 @@
   .footer_line{
     width: 680px;
     margin-top: 20px;
+  }
+
+
+  /*  --------------------------------------------- DISCOVER!! --------------------------------------*/
+
+  .main_discover{
+    width: 700px;
+    margin: 25px;
+  }
+
+  .title_discover{
+    font-size: 25px;
+    width: 650px;
+    margin-left: 12px;
+    position: relative;
+    top: -70px;
+  }
+
+  .main_discover figure.discover_images{
+    width: 90%;
+    margin-left: 14px;
+  }
+
+  .main_discover figure.discover_images img {
+    width: 100%;
+  }
+
+
+  .main_discover figure.discover_images figcaption{
+    text-align: center;
+    font-size: 20px;
+    width: auto;
+    color: rgb(2, 44, 46);
+    margin-bottom: 40px;
+    margin-top: 10px;
+  }
+
+  .image_space picture img{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .images{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    width: 670px;
+    margin-top: 30px;
+  }
+
+  .discover2{
+    height: 280px;
+    object-fit: cover;
+
+  }
+
+  .discover3{
+    height: 214px;
   }
 
 }
