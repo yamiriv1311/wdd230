@@ -2,7 +2,7 @@
 @media only screen and (min-width: 790px) {
 
   body{
-    width: 1210px;
+    max-width: 1210px;
   }
 
   main{
@@ -23,6 +23,7 @@
     
   header{
     height: 140px;
+    width: 1200px;
     margin-left:26px;
   }
 
@@ -304,6 +305,8 @@
     margin-bottom: 40px;
     margin-top: 60px;
     margin-left:26px;
+    width: 1200px;
+
   }
   
   /*  ------------- WEATHER --------------------*/
