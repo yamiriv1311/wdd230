@@ -486,3 +486,25 @@ a{
 .truck_line{
   width: 230px;
 }
+
+
+/*  --------------------------------------------- DISCOVER!! --------------------------------------*/
+
+.title_discover{
+  background-color: rgb(9, 81, 85);
+  color: #ffffff;
+  font-size: 22px;
+  width: 280px;
+  border-radius: 15px;
+  padding: 2%;
+  margin-left: 36px;
+  box-shadow: 2px 1px 10px #2b6373;
+}
+
+main figure.discover_images{
+  width: 50%;
+}
+
+main figure.discover_images img{
+  width: 100%;
+}
