@@ -23,7 +23,7 @@ header{
 
 main{
   display: grid;
-  grid-template-rows: 370px repeat(5, 1fr);
+  grid-template-rows: 370px, repeat(5 1fr);
   margin: 2px;
 }
 
@@ -123,8 +123,7 @@ nav ul.open{margin-left: -180px;}
   width: 280px;
   position: relative;
   left: 46px;
-  height: 45
-  0px;
+  height: 450px;
   background-color: rgba(130, 138, 168, 0.2);
   margin-bottom: 40px;
   border-radius: 20px;
