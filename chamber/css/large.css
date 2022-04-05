@@ -3,17 +3,22 @@
 
   body{
     width: 1250px;
-  }
-
-  main figure.central_image{
-    width: 80%;
-    margin-left: 65px;
+    margin-right: -20px;
   }
 
   main{
-    display: grid;
-		grid-template-columns: 1fr 1fr 1fr;
-		grid-template-rows: 1fr;
+    width: 900px;
+  }
+
+  main{
+    grid-template-rows: none;
+    grid-auto-rows: 200px;
+    margin: 0px;
+  }
+
+  main figure.central_image{
+    width: 67%;
+    margin-left: 54px;
   }
     
   header{
@@ -52,7 +57,55 @@
     margin-left: -670px;
   }
 
-    
+  .truck_title{
+    margin-left: 4px;
+    font-size: 24px;
+    margin-bottom: -20px;
+    text-shadow: 2px 2px 20px #ffffff;
+  }
+  
+  .truck_text{
+    color: rgb(114, 134, 165);
+    margin-bottom: -10px;
+    font-size: 15px;
+  }
+  
+  .h4_truck{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.685);
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
+  .welcome{
+    font-size: 17px;
+    width: 190px;
+    padding: 1%;
+    position: absolute;
+    top: 200px;
+    left: 316px;
+    border: no;
+  }
+
+  .eventH2{
+    margin-left: 18px;
+    margin-bottom: -10px;
+  }
+
+  .details_event{
+    font-size: 16px;
+    width: 240px;
+    margin-left:16px;
+    margin-bottom: -10px;
+  }
+
+  .event_title{
+    font-size: 15px;
+    width: 210px;
+    margin-left: 30px;
+    margin-bottom: -10px;
+  }
+
   /*  ------------- DATE --------------------*/
 
   #date{
@@ -63,35 +116,94 @@
 
   /*  ------------- SECTIONS --------------------*/
 
-  .center1{
-    grid-column: 2;
-    grid-row: 1/1;
-  }
-
   .center2{
-    grid-column: 2;
-    grid-row: 2/2;
+    margin-top: 395px;
+    margin-left: 317px;
+    width: 66%;
   }
 
   .right_section{
-    grid-column: 3;
     display: grid;
     background-color: rgb(2, 13, 58);
-    width: 10px;
     position: relative;
-    left: 40px;
+    left: 930px;
+    top: -450px;
+    padding: 0rem 0rem;
+    width: 280px;
+    height: 870px;
   }
 
+  .R1{
+    position: relative;
+    left: 0px;
+  }
+
+  .R2{
+    position: relative;
+    right: 0px;
+    top: -60px;
+  }
+
+  .right1{
+    height: 264px;
+    width: 230px;
+    margin:20px;
+    padding: 2px;
+  }
+ 
+  .right3{
+    display: block;
+    margin-top: -104px;
+  } 
+
   .left_section{
+    background-color: transparent;
     display: grid;
-    grid-column: 1;
-    width: 70px;
+    position: relative;
+    top: -880px;
+    left: -60px;
+  }
+
+  .left1{
+    width: 260px;
+    position: absolute;
+    top: 190px;
+    left: 60px;
+    height: 380px;
+    background-color: rgba(130, 138, 168, 0.2);
+    border-radius: 20px;
+  }
+
+  .weather_section{
+    background-color: rgb(2, 13, 58);
+    margin-bottom: 0px;
+    width: 260px;
+    position: absolute;
+    left: 40px;
+    top: 590px;
+    height: 270px;
+  }
+
+  .weather_subsection{
+    margin:18px;
+    padding: 2px;
+    background-color: rgb(22, 37, 77);
+    position: relative;
+    top: 20px;
+    margin-top: -2px;
+    height: 220px;
   }
 
   .left3{
-   grid-column: 1;
+    display: block;
+    position: absolute;
+    padding: 2px;
+    width: 260px;
+    margin-left: 33px;
+    top: 820px;
+    height: 190px;
+    margin-top: 40px;
   }
-  
 
 
   /*  ------------- IMAGES --------------------*/
@@ -103,8 +215,20 @@
 
   .centered_imag{
     margin-left: 260px;
+    height: 630px;
   }
 
+  .centered_imag:hover{
+    box-shadow: 0px 0px 50px rgba(8, 27, 88, 0.63);
+  }
+
+  .eventimg{
+    width: 67%;
+    position: relative;
+    top: 20px;
+    left: 19px;
+    margin-bottom: 10px;
+  }
 
   /*  ------------- BANNER --------------------*/
 
@@ -113,6 +237,156 @@
     left: 90px;
   }
   
+  /*  ------------- ICONS --------------------*/
+
+  .truck{
+    width: 95px;
+    margin-left: 70px;
+    margin-top: 10px;
+    margin-bottom: -10px;
+  }
+
+  .code{
+    margin-left: 77px;
+    width: 80px;
+    margin-bottom: -22px;
+    height: 80px;
+  }
+
+  .treefort{
+    width: 70px;
+    margin-top: 40px;
+    margin-left: 80px;
+    margin-bottom: -10px;
+    height: 66px;
+  }
+
+  .truck_line{
+    width: 80%;
+  }
+
+  /*  ------------- BUTTONS --------------------*/
+
+  .join{
+    position: absolute;
+    left: 700px;
+    top: 740px;
+    padding: 2px;
+    width: 190px;
+    background-color: rgb(9, 81, 85);
+  }
+
+  .join_link{
+    color: rgb(177, 248, 201);
+    font-size: 22px;
+  }
+
+  .event{
+    position: absolute;
+    top: 340px;
+    left: -11px;
+    width: 120px;
+    height: 30px;
+  }
+
+  .linkevent{
+    font-size: 13px;
+  }
+
+  .join_left3{
+    padding: 2%;
+    width: 220px;
+    position: relative;
+    font-size: 12px;
+    left: 20px;
+    margin-bottom: 10px;
+  }
+
+  footer{
+    position: relative;
+    margin-bottom: 40px;
+    margin-top: 60px;
+
+  }
+  
+  /*  ------------- WEATHER --------------------*/
+
+  .weather_title{
+    color: rgba(142, 190, 230, 0.884);
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 2px 2px 20px #ffffff;
+    position: absolute;
+    top: -3px;
+  }
+
+  
+  .icon_weather{
+    height: 110px;
+    margin-left: -40px;
+    margin-top: 10px;
+  }
+  
+  .description_icon{
+    color: #eee;
+    position: relative;
+    left: 70px;
+    top: 10px;
+    text-transform: capitalize;
+    font-size: 19px;
+    margin-top: -30px;
+    margin-bottom: 50px;
+  }
+  
+  #temperature{
+    font-size: 25px;
+    color: aliceblue;
+    position: absolute;
+    top: 70px;
+    margin-left: 10px;
+  }
+  
+  .line_weather{
+    width: 180px;
+    position: relative;
+    top: -35px;
+  }
+  
+  .p_weather{
+    color: rgb(233, 237, 237);
+    font-size: 14px;
+  }
+  
+  .chill_and_speed{
+    margin-top: -37px;
+  }
+
+  .weather_title:hover{
+    color: rgb(255, 255, 251);
+    background-color: transparent;
+  }
+
+
+  /*  ------------- FOOTER --------------------*/
+
+  .upper_part{
+    margin-left:320px;
+  }
+
+  .email_number_footer{
+    position: relative;
+    left: -40px;
+  }
+  
+  .location_link{
+    position: relative;
+    left: -190px;
+    top: 80px;
+  }
+
+  .footer_line{
+    width: 1080px;
+  }
 
 }
 

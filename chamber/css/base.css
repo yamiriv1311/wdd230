@@ -172,8 +172,11 @@ nav ul.open{margin-left: -180px;}
 }
 
 .left3{
-  position: absolute;
-  margin-left: -10000000px;
+  display: none;
+}
+
+.right3{
+  display: none;
 }
 
 /*  ------------- TEXT --------------------*/
