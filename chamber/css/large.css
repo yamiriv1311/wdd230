@@ -677,23 +677,23 @@
   
   /*  --------------------------------------------- THANKS PAGE!! --------------------------------------*/
   
-    .thanks{
-      width: 30%;
-      margin-left: 460px;
-      margin-top: -50px;
-      transition: transform .7s;
-    }
+  .thanks{
+    width: 30%;
+    margin-left: 460px;
+    margin-top: -50px;
+    transition: transform .7s;
+  }
   
-    .thanks:hover{
-      transform: scale(1.2);
-    }
+  .thanks:hover{
+    transform: scale(1.2);
+  }
   
-    .divThanks{
-      width: 1200px;
-      margin-top: -80px;
-      font-size: 23px;
-      margin-left: 10px;
-    }
+  .divThanks{
+    width: 1200px;
+    margin-top: -80px;
+    font-size: 23px;
+    margin-left: 10px;
+  }
 
   .footer_thanks{
     margin-bottom: 20px;
