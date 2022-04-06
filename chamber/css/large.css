@@ -528,7 +528,7 @@
   }
   
   form textarea{
-    width: 323spx;
+    width: 323px;
     background-color: #eee;
     border-radius: 4px;
   }
@@ -575,7 +575,7 @@
     width: 15%;
     position: absolute;
     left: 720px;
-    top: 2820px;
+    top: 2890px;
   }
   
   form img.imagemem{
