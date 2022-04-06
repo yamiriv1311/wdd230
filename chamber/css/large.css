@@ -475,7 +475,7 @@
 
   .footer_discover{
     position: relative;
-    top: 990px;
+    margin-top: 1000px;
   }
 
   #lastVisit{
@@ -491,189 +491,107 @@
   /*  --------------------------------------------- JOIN PAGE!! --------------------------------------*/
 
   .title_join{
-    font-size: 50px;
-    margin-top: 10px;
-    color: #0a4f5b;
-    width: 310px;
-    margin-left: 30px;
+    font-size: 60px;
+    width: 1000px;
+    margin-left: 120px;
     margin-bottom: 40px;
-    text-shadow: 2px 2px 20px #718da5;
   }
   
   form fieldset {
-    border: rgb(199, 205, 229) dashed;
-    border-radius: 10px;
-    padding: .5rem 2%;
-    width: 310px;
-    margin-left: 20px;
-    margin-bottom: 70px;
+    width: 700px;
+    margin-left: 240px;
+    border: solid;
+    border-color: #05345b71;
+    margin-bottom: 200px;
+    margin-top: -100px;
   }
   
   form legend{
-    font-size: 20px;
-    color: #05345b;
-    background-color: rgb(166, 184, 206);
-    padding: 2%;
-    border-radius: 20px;
-    text-align: center;
-    width: 200px;
+    font-size: 24px;
+    padding: 1%;
+    width: 300px;
   }
   
   form label.top, form div {
-    display: block;
-    padding-top: 1rem;
-    color: #382985;
-    font-size: 1rem;
-    width: 270px;
+    font-size: 23px;
   }
-  
-  form label.top input, form label.top select{
-    font-size: 1rem;
-    border: solid 1px ;
-    border-radius: 4px;
-    padding: .75rem;
-    color: #555;
-    width: 100%;
-    max-width: 20rem;
-    background-color: #eee;
-  }
+
   
   form label.top_not_required input, form label.top select{
-    font-size: 1rem;
-    border: solid 1px ;
-    border-radius: 4px;
-    padding: .75rem;
-    color: #555;
-    width: 276px;
-    background-color: #eee;
+    width: 307px;
   }
   
   form label.top_not_required, form div {
-    display: block;
-    padding-top: 1rem;
     color: #382985;
-    font-size: 1rem;
+    font-size: 23px;
     width: 270px;
   }
   
   form textarea{
-    width: 296px;
+    width: 323spx;
     background-color: #eee;
     border-radius: 4px;
   }
-  
-  form label.sbsnp {
-    display: block;
-    padding: .80rem 0;
-    color: rgb(24, 129, 26);
-    font-size: 16px;
-  }
-  
-  form label.sbsb{
-    display: block;
-    color: rgb(75, 52, 18);
-    font-size: 16px;
-  }
-  
-  form label.sbss{
-    display: block;
-    padding: .80rem 0;
-    color: rgb(42, 56, 58);
-    font-size: 16px;
-  }
-  
-  form label.sbsg{
-    display: block;
-    color: rgb(145, 139, 16);
-    font-size: 16px;
-  }
-  
+
+
   form p.membership{
-    font-size: 17px;
-    text-align: center;
-    margin-left: 80px;
-    margin-top: 10px;
-    color: #e9efee;
-    background-color: #0a4f5b;
-    padding: 2%;
-    width: 140px;
+    font-size: 22px;
+    margin-left: 130px;
+    width: 180px;
   }
   
   form p.p_div{
     color: #000000;
-    font-size: 18px;
+    font-size: 20px;
+    margin-left: 68px;
+    width: 320px;
+  }
+  
+  form p.packagenp, form p.packageb, form p.packages, form p.packageg{
+    font-size: 20px;
+    width: 350px;
     margin-left: 40px;
   }
   
-  form p.packagenp{
-    color: black;
-    font-size: 18px;
-    background-color: rgba(24, 129, 26, 0.459);
-    width: 300px;
-    padding: 2%;
+  form b.bnp, form b.bb, form b.bs, form b.bg{
+    font-size: 22px;
   }
-  
-  form b.bnp{
-    color: rgb(12, 96, 14);
-  }
-  
-  form p.packageb{
-    color: black;
-    font-size: 18px;
-    background-color: rgba(75, 52, 18, 0.411);
-    width: 300px;
-    padding: 2%;
-  }
-  
-  form b.bb{
-    color: rgb(71, 49, 15);
-  }
-  
-  form p.packages{
-    color: black;
-    font-size: 18px;
-    background-color: rgba(42, 56, 58, 0.347);
-    width: 300px;
-    padding: 2%;
-  }
-  
-  form b.bs{
-    color: rgb(42, 56, 58);
-  }
-  
-  form p.packageg{
-    color: black;
-    font-size: 18px;
-    background-color: rgba(145, 139, 16, 0.402);
-    width: 300px;
-    padding: 2%;
-  }
-  
-  form b.bg{
-    color: rgb(140, 133, 8);
-  }
-  
+    
   form input.submitBtn{
-    border: none;
-    background-color: #0a4f5b;
-    color: white;
-    border-radius: 1rem;
-    padding: .75rem 1.5rem;
-    width: 96%;
-    max-width: 20rem;
-    margin-left: 22px;
+    max-width: 1100px;
+    margin-left: 70px;
+    top: 3240px;
+    font-size: 23px;
+  }
+
+  form img.personalIcon{
+    width: 15%;
     position: absolute;
-    top: 2440px;
+    left: 720px;
+    top: 460px;
+  }
+
+  form img.busIcon{
+    width: 15%;
+    position: absolute;
+    left: 720px;
+    top: 2820px;
   }
   
-  form label.top input:required {
-    border-left: red solid 6px;
+  form img.imagemem{
+    width: 26%;
+    margin-left: 187px;
   }
-  
-  form label.top input:required:valid {
-    border-left: green solid 6px;
+
+  form img.imagesilver, form img.imagegold{
+    width: 27%;
+    margin-left: 189px;
   }
-  
+
+
+  .footer_Join{
+    margin-top: 2675px;
+  }
   
   /*  --------------------------------------------- THANKS PAGE!! --------------------------------------*/
   
@@ -695,11 +613,9 @@
     margin-left: 10px;
   }
 
-  .footer_thanks{
-    margin-bottom: 20px;
-    top: 120px;
+  .footerThanks{
+    margin-top: 200px;
   }
-
 }
 
 

@@ -59,25 +59,32 @@
           <label class="top">Last Name*<input type="text" name="lname" required></label>
           <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
           <label class="top">Phone*<input type="tel" name="phone" placeholder="1235551234" required></label>
+          <img src="https://cdn-icons-png.flaticon.com/512/942/942799.png" alt="personalIcon" class="personalIcon">
         </fieldset>
 
         <fieldset>
           <legend>Membership Level</legend>
-          <div>
-            <label class="top">Select Membership</label>
-            <b><label class="sbsnp"><input type="radio" name="membership" value="np">NP</label></b>
-            <b><label class="sbsb"><input type="radio" name="membership" value="bronze">BRONZE</label></b>
-            <b><label class="sbss"><input type="radio" name="membership" value="silver">SILVER</label></b>
-            <b><label class="sbsg"><input type="radio" name="membership" value="gold">GOLD</label></b>
-          </div>
-          
-          <div> 
-            <p class="membership">Memberships</p>
-            <p class="p_div">Packages available for all types of business.</p> 
-            <p class="packagenp"><b class="bnp">NP Membership<br></b> Are you a non-profit organization? This is the perfect package for you! You will not have a joining fee.</p>
-            <p class="packageb"><b class="bb">Bronze Membership<br></b> Perfect for small business! We provide you a space inside our chamber for 1 post and 1 banner to be known by all visitors. <br>Join us with this package for only USD$20 and if your business is less than 6 months new we give you a discount of the 50%!! <br>We love supporting small business.</p>
-            <p class="packages"><b class="bs">Silver Membership<br></b> Your business is not a corporation yet but you haven't just opened either? This package is for you! <br>With the silver membership you can obtain more than 1 post in our chamber of commerce and special banners that will appear for visitors. Take this package for USD$40 and apply now to have 3 extra offert advertising posts per week! <p>
-            <p class="packageg"><b class="bg">Gold membership<br></b> Large scale business welcome! Golden package offers up to 3 posts inside our chamber, including the principal page! <br>With USD$75 you will appear on our banners section from Monday to Friday!<br>Don't lose this opportunity, apply now and discover extra features for this package</p>
+          <div class="memLevel">
+            <div>
+              <label class="top">Select Membership</label>
+              <b><label class="sbsnp"><input type="radio" name="membership" value="np">NP</label></b>
+              <b><label class="sbsb"><input type="radio" name="membership" value="bronze">BRONZE</label></b>
+              <b><label class="sbss"><input type="radio" name="membership" value="silver">SILVER</label></b>
+              <b><label class="sbsg"><input type="radio" name="membership" value="gold">GOLD</label></b>
+            </div>
+            
+            <div class="packagesMemberships"> 
+              <p class="membership">Memberships</p>
+              <p class="p_div">Packages available for all types of business.</p> 
+              <img src="images/stone1.webp" alt="npimage" class="imagemem">
+              <p class="packagenp"><b class="bnp"><br>NP Membership<br><br></b> Are you a non-profit organization? This is the perfect package for you! You will not have a joining fee.<br><br></p>
+              <img src="images/bronze1.webp" alt="npimage" class="imagemem">
+              <p class="packageb"><b class="bb"><br>Bronze Membership<br><br></b> Perfect for small business! We provide you a space inside our chamber for 1 post and 1 banner to be known by all visitors. <br>Join us with this package for only USD$20 and if your business is less than 6 months new we give you a discount of the 50%!! <br>We love supporting small business.<br><br></p>
+              <img src="images/silver1.webp" alt="npimage" class="imagesilver">
+              <p class="packages"><b class="bs"><br>Silver Membership<br><br></b> Your business is not a corporation yet but you haven't just opened either? This package is for you! <br>With the silver membership you can obtain more than 1 post in our chamber of commerce and special banners that will appear for visitors. Take this package for USD$40 and apply now to have 3 extra offert advertising posts per week!<br><br><p>
+              <img src="images/oro1.webp" alt="goldimage" class="imagegold">
+              <p class="packageg"><b class="bg"><br>Gold membership<br><br></b> Large scale business welcome! Golden package offers up to 3 posts inside our chamber, including the principal page! <br>With USD$75 you will appear on our banners section from Monday to Friday!<br>Don't lose this opportunity, apply now and discover extra features for this package<br><br></p>
+            </div>
           </div>
         </fieldset>
 
@@ -86,11 +93,11 @@
           <label class="top_not_required">Business Position Title<input type="text" name="title" pattern=".{7,}" placeholder="7 or more characters"></label>
           <label class="top">Business Name/Title*<input type="text" name="bname" required></label>
           <label class="top">Business Description<textarea name="bdesc" cols="38" rows="7"></textarea></label>
-
+          <img src="https://cdn-icons-png.flaticon.com/512/493/493808.png" alt="busIcon" class="busIcon">
         </fieldset>
 
         <input type="hidden" name="dateTime" id="datetime">
-        <input type="submit" value="I want to apply!" class="submitBtn">
+        <input type="submit" value="I want to join!" class="submitBtn">
 
       </form>
 
@@ -98,7 +105,7 @@
   </main>
 
   
-  <footer>
+  <footer class="footer_Join">
     <div class="upper_part">
 
       <section class="footer_sec">
