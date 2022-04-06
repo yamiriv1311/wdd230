@@ -69,8 +69,34 @@ if (currentDate == 1 || currentDate == 2) {
 }
 
 
+//--------------------------------------------- DISCOVER PAGE  ------------------------------------//
+
+const anotherDay = new Date();
+
+const lastVisit = document.getElementById("lastVisit");
 
 
-//------------------------------------------------ DISCOVER PAGE  ------------------------------------//
+// get the stored value in localStorage
+let lastDayVisited = window.localStorage.getItem("lastDay");
+let currentDayVisit = anotherDay;
 
+// Make a subtraction of the last day visited minus the current day to get the numebr of days 
+if (lastDayVisited !== null) {
+  var subtractionTime = currentDayVisit.getTime() - lastDayVisited;
+  var daysSinceLastVisit = Math.floor(subtractionTime / (1000 * 3600 * 24));
+  if (daysSinceLastVisit == 1 ){
+      lastVisit.textContent = `Hey! Nice to see you again, your last visit was a day ago.`;
+  } 
+  else if (daysSinceLastVisit < 1){
+      lastVisit.textContent = `Hi again! your last visit was today`;
+  }
+  else {
+      lastVisit.textContent = `Hey! Nice to see you again, your last visit was ${daysSinceLastVisit} days ago.`;
+  }
+}
+else{
+    lastVisit.textContent = `Welcome, It seems that this is your first visit :D enjoy!`;
+}
+
+localStorage.setItem("lastDay", anotherDay.getTime());
 

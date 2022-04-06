@@ -238,6 +238,7 @@ text-align: center;
   margin-left: 20px;
   color: rgb(85, 32, 32);
   text-align: center;
+  padding: 5%;
 }
 
 .eventH2:hover{
@@ -325,6 +326,7 @@ footer{
   border-radius: 20px;
   margin-bottom: 20px;
   margin: 20px;
+  margin-top: 80px;
 }
 
 .footer_line{
@@ -514,7 +516,7 @@ a{
   width: 100%;
 }
 
-.discover1, .discover2, .discover3{
+.discover1, .discover2, .discover3, .discover4{
   transition: transform .5s;
 }
 .discover1:hover{
@@ -530,6 +532,10 @@ a{
 .discover3:hover{
   box-shadow: 0px 0px 20px #fffdfd;
   transform: scale(1.1);
+}
+
+.museums{
+  margin-bottom: -40px;
 }
 
 .main_discover figure.discover_images figcaption{
@@ -548,8 +554,27 @@ a{
 }
 
 .images{
-  background-color: rgba(2, 51, 47, 0.511);
+  background-color: rgba(2, 63, 58, 0.26);
   margin-top: 70px;
   width: 290px;
   margin-left: 12px;
+}
+
+#lastVisit{
+  position: relative;
+  top: 50px;
+  margin-bottom: -10px;
+  background-color: #2b6373;
+  color: #eee;
+  margin-left: 1px;
+  width: 260px;
+  padding: 5%;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#lastVisit:hover{
+  background-color: #eee;
+  color: #2b6373;
+  box-shadow: 0 0 20px rgb(4, 63, 70);
 }

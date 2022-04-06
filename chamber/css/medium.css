@@ -34,7 +34,7 @@
   
   nav button{
     position: relative;
-    top: -105px;
+    top: -75px;
     left: 600px;
   }
 
@@ -96,7 +96,7 @@
     font-size: 21px;
     position: absolute;
     left: 470px;
-    top: 600px;
+    top: 550px;
     padding: 2%;
     width: 190px;
     background-color: rgb(9, 81, 85);
@@ -153,11 +153,18 @@
   }
 
   .eventH2{
-    margin-left: -26px;
+    margin-left: 26px;
+    padding: 0%;
+    margin-top: 30px;
   }
 
   .bEvents{
     margin-left: -10px;
+  }
+
+  .linkevent{
+    position: relative;
+    top: 20px;
   }
 
 
@@ -236,6 +243,7 @@
     box-shadow: none;
     background-color: rgb(22, 37, 77);
     box-shadow: 2px 1px 5px #000000;   
+
   }
 
   .left1{
@@ -285,8 +293,9 @@
 
   /*  ------------- IMAGES --------------------*/
   .eventimg{
-    width: 70%;
-    margin-left: 30px;
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 5px;
   }
 
   /*  ------------- WEATHER --------------------*/
@@ -296,7 +305,7 @@
     text-align: center;
     font-size: 23px;
     position: relative;
-    top: -70px;
+    top: -60px;
     text-transform: uppercase;
     margin-left: -20px;
     width: 270px;
@@ -403,17 +412,35 @@
     grid-template-columns: 1fr 1fr ;
     width: 670px;
     margin-top: 30px;
+    background-color: rgba(2, 63, 58, 0.26);
+    margin-bottom: -20px;
   }
 
   .discover2{
     height: 280px;
     object-fit: cover;
-
   }
 
   .discover3{
     height: 214px;
   }
 
+  .elotes{
+    margin-top: 50px;
+  }
+
+  #lastVisit{
+    position: absolute;
+    top: 1650px;
+    margin-left: 520px;
+    height: 30px;
+    background-color: #2b6373;
+    color: #eee;
+    left: -120px;
+    width: 190px;
+    padding: 5%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
 }
 
