@@ -229,7 +229,7 @@
     width: 67%;
     position: relative;
     top: 20px;
-    left: 19px;
+    left: 33px;
     margin-bottom: 10px;
   }
 
@@ -331,7 +331,7 @@
   .description_icon{
     color: #eee;
     position: relative;
-    left: 70px;
+    left: 56px;
     top: 10px;
     text-transform: capitalize;
     font-size: 19px;
