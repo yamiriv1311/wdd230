@@ -442,5 +442,222 @@
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
+
+  /*  --------------------------------------------- JOIN PAGE!! --------------------------------------*/
+
+  .title_join{
+    font-size: 50px;
+    margin-top: 10px;
+    color: #0a4f5b;
+    width: 310px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+    text-shadow: 2px 2px 20px #718da5;
+  }
+
+  form fieldset {
+    border: rgb(199, 205, 229) dashed;
+    border-radius: 10px;
+    padding: .5rem 2%;
+    width: 310px;
+    margin-left: 20px;
+    margin-bottom: 70px;
+  }
+
+  form legend{
+    font-size: 20px;
+    color: #05345b;
+    background-color: rgb(166, 184, 206);
+    padding: 2%;
+    border-radius: 20px;
+    text-align: center;
+    width: 200px;
+  }
+
+  form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: #382985;
+    font-size: 1rem;
+    width: 270px;
+  }
+
+  form label.top input, form label.top select{
+    font-size: 1rem;
+    border: solid 1px ;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: #eee;
+  }
+
+  form label.top_not_required input, form label.top select{
+    font-size: 1rem;
+    border: solid 1px ;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 276px;
+    background-color: #eee;
+  }
+
+  form label.top_not_required, form div {
+    display: block;
+    padding-top: 1rem;
+    color: #382985;
+    font-size: 1rem;
+    width: 270px;
+  }
+
+  form textarea{
+    width: 296px;
+    background-color: #eee;
+    border-radius: 4px;
+  }
+
+  form label.sbsnp {
+    display: block;
+    padding: .80rem 0;
+    color: rgb(24, 129, 26);
+    font-size: 16px;
+  }
+
+  form label.sbsb{
+    display: block;
+    color: rgb(75, 52, 18);
+    font-size: 16px;
+
+  }
+
+  form label.sbss{
+    display: block;
+    padding: .80rem 0;
+    color: rgb(42, 56, 58);
+    font-size: 16px;
+
+  }
+
+  form label.sbsg{
+    display: block;
+    color: rgb(145, 139, 16);
+    font-size: 16px;
+
+  }
+
+  form p.membership{
+    font-size: 17px;
+    text-align: center;
+    margin-left: 80px;
+    margin-top: 10px;
+    color: #e9efee;
+    background-color: #0a4f5b;
+    padding: 2%;
+    width: 140px;
+  }
+
+  form p.p_div{
+    color: #000000;
+    font-size: 18px;
+    margin-left: 40px;
+  }
+
+  form p.packagenp{
+    color: black;
+    font-size: 18px;
+    background-color: rgba(24, 129, 26, 0.459);
+    width: 300px;
+    padding: 2%;
+  }
+
+  form b.bnp{
+    color: rgb(12, 96, 14);
+  }
+
+  form p.packageb{
+    color: black;
+    font-size: 18px;
+    background-color: rgba(75, 52, 18, 0.411);
+    width: 300px;
+    padding: 2%;
+  }
+
+  form b.bb{
+    color: rgb(71, 49, 15);
+  }
+
+  form p.packages{
+    color: black;
+    font-size: 18px;
+    background-color: rgba(42, 56, 58, 0.347);
+    width: 300px;
+    padding: 2%;
+  }
+
+  form b.bs{
+    color: rgb(42, 56, 58);
+  }
+
+  form p.packageg{
+    color: black;
+    font-size: 18px;
+    background-color: rgba(145, 139, 16, 0.402);
+    width: 300px;
+    padding: 2%;
+  }
+
+  form b.bg{
+    color: rgb(140, 133, 8);
+  }
+
+  form input.submitBtn{
+    border: none;
+    background-color: #0a4f5b;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    width: 96%;
+    max-width: 20rem;
+    margin-left: 22px;
+    position: absolute;
+    top: 2440px;
+  }
+
+  form label.top input:required {
+    border-left: red solid 6px;
+  }
+
+  form label.top input:required:valid {
+    border-left: green solid 6px;
+  }
+
+
+  /*  --------------------------------------------- THANKS PAGE!! --------------------------------------*/
+
+  .thanks{
+    width: 50%;
+    margin-left: 217px;
+    height: 370px;
+    object-fit: cover;
+    margin-bottom: -10px;
+    transition: transform .7s;
+  }
+
+  .thanks:hover{
+    transform: scale(1.2);
+  }
+
+  .divThanks{
+    width: 700px;
+    margin-top: -60px;
+    font-size: 23px;
+  }
+
+  .pH1{
+    font-size: 22px;
+    color: #524f04;
+  }
+
 }
 
