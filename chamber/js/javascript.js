@@ -101,6 +101,3 @@ else{
 localStorage.setItem("lastDay", anotherDay.getTime());
 
 
-
-//--------------------------------------------- DIRECTORY PAGE  ------------------------------------//
-
