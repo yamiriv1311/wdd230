@@ -1,6 +1,6 @@
 //--------------------------------------------- DIRECTORY PAGE  ------------------------------------//
 
-const requestURL = 'https://yamiriv1311.github.io/wdd230/chamber/data/data.json';
+const requestURL = 'https://yamiriv1311.github.io/wdd230/chamber/data/datad.json';
 const cards = document.querySelector('.cards');
 
 fetch(requestURL)
@@ -68,3 +68,13 @@ function displayBusiness(company) {
 }
 
 
+//Card and list view
+let cardView = function () {
+	document.querySelector(".cards").classList.remove("list");
+	document.querySelector(".cards").classList.add("card");
+};
+
+let listView = function () {
+	document.querySelector(".cards").classList.add("list");
+	document.querySelector(".cards").classList.remove("card");
+};
