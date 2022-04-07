@@ -7,6 +7,94 @@
       "email": "privacidad@jumex.com.mx",
       "address": "https://goo.gl/maps/vjXe1fwpcdUkfWFM7",
       "website": "http://grupojumex.mx/"
+    },
+    {
+      "imageurl": "images/t100.png",
+      "name": "T100 Technology Consulting",
+      "phone": "52 555 523 1021",
+      "email": "info@t100.com.mx",
+      "address": "https://g.page/T100-Corporativo?share",
+      "website": "http://t100.com.mx/"
+    },
+    {
+      "imageurl": "images/cristlizz.png",
+      "name": "CristLizz",
+      "phone": "52 555 594 2338",
+      "email": "comercial@cristlizz.com",
+      "address": "https://goo.gl/maps/a9VnoA89sPhYa5vbA",
+      "website": "https://www.cristlizz.com/"
+    },
+    {
+      "imageurl": "images/basf.png",
+      "name": "BASF",
+      "phone": "52 555 325 2792",
+      "email": "contacto@basf.com",
+      "address": "https://goo.gl/maps/Rf5tNVGiGtg2Yrwj6",
+      "website": "https://www.basf.com/"
+    },
+    {
+      "imageurl": "images/giormar.png",
+      "name": "GIORMAR",
+      "phone": "52 555 688 0583",
+      "email": "atencionaclientes@giormar.com",
+      "address": "https://goo.gl/maps/XpUb6G99tHjV5mpq8",
+      "website": "https://giormar.com"
+    },
+    {
+      "imageurl": "images/goyce.png",
+      "name": "GOYCE",
+      "phone": "52 551 346 8700",
+      "email": "contacto@coyce.com.mx",
+      "address": "https://goo.gl/maps/FmTWbn7KuPu3dDxf9",
+      "website": "https://coyce.com.mx/"
+    },
+    {
+      "imageurl": "images/diniz.png",
+      "name": "Grupo Diniz",
+      "phone": "800 881 8811",
+      "email": "atencion_clientes@grupodiniz.com.mx",
+      "address": "https://goo.gl/maps/fRK97aZbWdiJQafu7",
+      "website": "https://www.recorcholis.com.mx/"
+    },
+    {
+      "imageurl": "images/kamaji.png",
+      "name": "Kamaji",
+      "phone": "52 555 003 4700",
+      "email": "info@corporativokamaji.com.mx",
+      "address": "https://goo.gl/maps/6UKD7XE3yzES7WE37",
+      "website": "http://corporativokamaji.com.mx/"
+    },
+    {
+      "imageurl": "images/enlace.png",
+      "name": "Enlace",
+      "phone": "52 554 161 4302",
+      "email": "ventas@ecorporativo.com",
+      "address": "https://goo.gl/maps/jdSU2oNSoRNJWczg7",
+      "website": "http://www.ecorporativo.com/"
+    },
+    {
+      "imageurl": "images/sigma.png",
+      "name": "Sigma Alimentos",
+      "phone": "01 800 706 1100,",
+      "email": "servicio_clientes@sigma-alimentos.com",
+      "address": "https://goo.gl/maps/hDuqVBADLHb7e7DS9",
+      "website": "https://www.sigma-alimentos.com/"
+    },
+    {
+      "imageurl": "images/bimbo.svg",
+      "name": "Grupo Bimbo",
+      "phone": "01 800 910 2030",
+      "email": " atencionenlinea@grupobimbo.com",
+      "address": "https://goo.gl/maps/AMyXxMqVB5Kotxq47",
+      "website": "https://grupobimbo.com/es"
+    },
+    {
+      "imageurl": "images/alen.png",
+      "name": "Grupo AlEn",
+      "phone": "800 83 43 300",
+      "email": "oficinadeprivacidad@alen.com.mx",
+      "address": "https://goo.gl/maps/Q7j2dmH99V1k9quH9",
+      "website": "https://www.grupoalen.com/es/"
     }
   ]
 }
