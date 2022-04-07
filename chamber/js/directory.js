@@ -16,35 +16,42 @@ fetch(requestURL)
 
 function displayBusiness(company) {
   // Create elements to add to the document
-  let card = document.createElement('block');
+  let card = document.createElement('div');
   let logo = document.createElement('img');
   let name = document.createElement('h5');
   let phone = document.createElement('h6');
-  let email = document.createElement('h7');
+  let email = document.createElement('p');
   let address = document.createElement('a');
   let website = document.createElement('a');
 
   // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
   logo.setAttribute('src', company.imageurl);
   logo.setAttribute('alt', `Logo of ${company.name}`);
-  logo.setAttribute('class', "imageJumex");
+  logo.setAttribute('class', "imageIcon");
   logo.setAttribute('loading', 'lazy');
- 
+  
+  card.setAttribute('class', "divJSON");
+  email.setAttribute('class', "email");
+
 
   // Change the textContent property of the h2 and p elements to contain the companie's name, phone, and email
   name.innerHTML = `${company.name}`;
   phone.innerHTML = `<b>Phone: </b>${company.phone}`;
   email.innerHTML = `<b>Email: </b>${company.email}`;
-  logo.innerHTML
+
 
   // Change the content  of the a elements to contain the companie's address and website link
   address.setAttribute('href', `${company.address}`);
-  let aAddress = document.createTextNode("Adress");
+  let aAddress = document.createTextNode("Click for Address");
   address.appendChild(aAddress);
+  address.setAttribute('class', "address");
+
 
   website.setAttribute('href', `${company.website}`);
-  let aWebsite = document.createTextNode("Website");
+  let aWebsite = document.createTextNode("Click to visit website");
   website.appendChild(aWebsite);
+  website.setAttribute('class', "website");
+
 
 
   
@@ -53,8 +60,8 @@ function displayBusiness(company) {
   card.appendChild(logo);
   card.appendChild(phone);
   card.appendChild(email);
-  //card.appendChild(address);
-  //cards.appendChild(website);
+  card.appendChild(address);
+  card.appendChild(website);
 
   // Add/append the existing HTML div with the cards class with the section(card)
   cards.appendChild(card);

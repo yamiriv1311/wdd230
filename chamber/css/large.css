@@ -621,7 +621,10 @@
 
   .h1_Directory{
     margin-top: -40px;
-    margin-left: 70px;
+    margin-left: 40px;
+    color: #094763d1;
+    font-size: 39px;
+    text-shadow: 2px 2px 40px #a6d0ea;
   }
  
   .cards{
@@ -637,36 +640,75 @@
   }
 
   h5{
-    color: rgb(7, 65, 102);
-    font-size: 20px;
+    color: #094763d1;
+    font-size: 23px;
     text-align: center;
     text-transform: uppercase;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
+    text-shadow: 5px 5px 20px #555c60;
   }
 
   h6{
-    font-size: 18px;
-    margin-top: 20px;
+    font-size: 20px;
+    margin-top: 40px;
     text-align: center;
-    
+    margin-bottom: 7px;
   }
 
-  block{
-    background-color: rgba(110, 167, 223, 0.603);
-    width: 260px;
+  .email{
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .divJSON{
+    text-align: center;
+    width: 280px;
     padding: 4%;
     margin-bottom: 30px;
-    height: 400px;
-    margin-left: -30px;
+    height: 450px;
+    margin-left: -40px;
+    box-shadow: 2px 1px 10px #000000;
+    margin-top: 20px; 
   }
 
-  .imageJumex{
-    margin-left: 30px;
+  .divJSON{
+    transition: transform .5s;
   }
 
+  .divJSON:hover{
+    transform: scale(1.1);
+    background-color: #024a5745;
+    color: rgb(255, 255, 255);
+  }
+
+  .imageIcon{
+    margin-top: -10px;
+  }
+
+  .address{
+    background-color: #094763d1;
+    padding: 4%;
+    border-radius: 20px;
+    box-shadow: 2px 1px 10px #024a57;
+    color: white;
+    font-size: 18px;
+    position: relative;
+    top: 10px;
+  }
+
+  .website{
+    position: relative;
+    margin-left: -150px;
+    top: 90px;
+    background-color: #094763d1;
+    padding: 4%;
+    border-radius: 20px;
+    box-shadow: 2px 1px 10px #024a57;
+    color: white;
+  }
 
   .footer_discovery{
-    margin-top: 1800px;
+    margin-top: 1650px;
 
   }
 }
