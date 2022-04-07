@@ -1,6 +1,6 @@
 //--------------------------------------------- DIRECTORY PAGE  ------------------------------------//
 
-const requestURL = '';
+const requestURL = 'https://yamiriv1311.github.io/wdd230/chamber/data/data2.json';
 const cards = document.querySelector('.cards');
 
 fetch(requestURL)
@@ -16,8 +16,8 @@ fetch(requestURL)
 
 function displayBusiness(company) {
   // Create elements to add to the document
-  let logo = document.createElement('img');
   let card = document.createElement('section');
+  let logo = document.createElement('img');
   let name = document.createElement('h2');
   let phone = document.createElement('p');
   let email = document.createElement('p');
@@ -26,7 +26,7 @@ function displayBusiness(company) {
 
   // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
   logo.setAttribute('src', company.imageurl);
-  logo.setAttribute('alt', `Lofo of ${company.name}`);
+  logo.setAttribute('alt', `Logo of ${company.name}`);
   logo.setAttribute('loading', 'lazy');
  
 
@@ -36,11 +36,11 @@ function displayBusiness(company) {
   email.innerHTML = `<strong>Email: </strong>${company.email}`;
 
   // Change the content  of the a elements to contain the companie's address and website link
-  address.setAttribute('href', `${company.addres}`);
+  address.setAttribute('href', `${company.address}`);
   let aAddress = document.createTextNode("Adress");
   address.appendChild(aAddress);
 
-  website.setAttribute('href', `${company.Website}`);
+  website.setAttribute('href', `${company.website}`);
   let aWebsite = document.createTextNode("Website");
   website.appendChild(aWebsite);
 
