@@ -833,5 +833,196 @@ form img.imagegold{
 }
 
 
+
 /*  --------------------------------------------- DIRECTORY --------------------------------------*/
+
+.h1_Directory{
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 30px;
+  margin-bottom: 70px;
+  color: #094763d1;
+  text-shadow: 2px 2px 40px #a6d0ea;
+}
+ 
+.cards{
+  margin-left: 77px;
+  max-width: 290px;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  
+}
+
+.cards{
+  display: grid;
+  grid-template-columns: 1fr ;
+}
+
+h5{
+  color: #094763d1;
+  font-size: 23px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  text-shadow: 5px 5px 20px #555c60;
+}
+
+h6{
+  font-size: 16px;
+  margin-top: 40px;
+  text-align: center;
+  margin-bottom: 7px;
+}
+
+.email{
+  font-size: 17px;
+  margin-bottom: 30px;
+}
+
+.divJSON{
+  text-align: center;
+  width: 270px;
+  padding: 4%;
+  margin-bottom: 70px;
+  height: 440px;
+  margin-left: -40px;
+  box-shadow: 2px 1px 10px #000000c8;
+}
+
+.divJSON{
+  transition: transform .5s;
+}
+
+.divJSON:hover{
+  transform: scale(1.03);
+  background-color: #658e9645;
+  color: rgb(3, 62, 81);
+}
+
+.imageIcon{
+  margin-top: -10px;
+  width: 40%;
+  margin-bottom: -20px;
+}
+
+.address{
+  background-color: #094763d1;
+  padding: 3%;
+  box-shadow: 2px 1px 10px #024a57;
+  color: white;
+  font-size: 18px;
+  position: relative;
+  top: 10px;
+}
+
+.website{
+  position: relative;
+  align-items: center;
+  margin-left: -145px;
+  top: 60px;
+  background-color: #094763d1;
+  padding: 3%;
+  box-shadow: 2px 1px 10px #024a57;
+  color: white;
+  opacity: 0.8;
+}
+
+.div_buttons{
+  position: relative;
+  top: -37px;
+  left: 130px;
+}
+
+.button{
+  width: 39px;
+  height: 40px;
+  padding: 2px;
+}
+
+.footer_directory{
+  margin-top: 7px;
+}
+
+/**----------------LIST VIEW----------------**/
+
+main .list{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+  
+.list div{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  height: 190px;
+  width: 250px;
+  margin-left: -30px;
+  margin-bottom: 55px;
+}
+
+.list .cards{
+  width: 160px;
+}
+  
+.list h5{
+  color: rgb(8, 41, 113);
+  font-size: 23px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 20px;
+  text-shadow: 5px 5px 30px #186094;
+  position: relative;
+  left: 25px;
+  width: 200px;
+}
+
+
+
+.list h6{
+  font-size: 17px;
+  margin-top: -0px;
+  text-align: center;
+  position: relative;
+  top: 80px;
+  left: -170px;
+  width: 180px;
+}
+
+.list .divJSON{
+  box-shadow: 5px 4px 2px 0px #4b4b4b;
+  background-color: #024a5745;
+}
+
+
+.list .email{
+  font-size: 14px;
+  width: 20px;
+  margin-top: 110px;
+  position: relative;
+  text-align: center;
+  margin-left: -360px;
+}
+
+.cards.list div:nth-child(odd) {
+  background-color: rgba(3, 99, 76, 0.402);
+}
+
+.cards.list img {
+  display: none;
+}
+
+.list .address{
+  margin-left: -280px;
+  top: 160px;
+  background-color: #094763d1;
+  box-shadow: 2px 1px 10px #024a57;
+  color: white;
+  height: 24px;
+  width: 150px;
+  font-size: 17px;
+  position: relative;
+}
+
+.list .website{
+  display: none;
+}
 

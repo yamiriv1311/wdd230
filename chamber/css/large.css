@@ -620,16 +620,12 @@
   /*  --------------------------------------------- DIRECTORY --------------------------------------*/
 
   .h1_Directory{
-    margin-top: -40px;
-    margin-left: -7px;
-    color: #094763d1;
-    font-size: 39px;
-    text-shadow: 2px 2px 40px #a6d0ea;
+    margin-left: 370px;
+
   }
  
   .cards{
     margin-left: 140px;
-    width: 1130px;
     margin-top: -300px;
     margin-bottom: -100px;
   }
@@ -662,8 +658,8 @@
 
   .divJSON{
     text-align: center;
-    width: 280px;
-    padding: 4%;
+    width: 327px;
+    padding: 0%;
     margin-bottom: 30px;
     height: 420px;
     margin-left: -57px;
@@ -722,7 +718,7 @@
   }
 
   .footer_directory{
-    margin-top: 1550px;
+    margin-top: 1440px;
   }
 
   /**----------------LIST VIEW----------------**/
@@ -732,12 +728,12 @@
     grid-template-columns: 1fr;
   }
   
-  .list div{
+  .list .divJSON{
     display: grid;
+    width: 1040px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    height: 2px;
-    width: 900px;
-    margin-left: -10px;
+    height: 80px;
+    margin-left: -27px;
     margin-bottom: 55px;
   }
   
@@ -746,11 +742,11 @@
     font-size: 18px;
     text-align: center;
     text-transform: uppercase;
-    margin-top: -10px;
+    margin-top: 30px;
     margin-left: -50px;
     text-shadow: 5px 5px 30px #186094;
     position: relative;
-    left: 30px;
+    left: 50px;
     width: 190px;
   }
 
@@ -765,11 +761,11 @@
   
   .list h6{
     font-size: 17px;
-    margin-top: -20px;
+    margin-top: 20px;
     text-align: center;
     position: relative;
     top: 10px;
-    left: 30px; 
+    left: 60px; 
     width: 190px;
   }
 
@@ -781,9 +777,9 @@
   .list .email{
     text-align: center;
     font-size: 16px;
-    margin-top: -14px;
+    margin-top: 25px;
     position: relative;
-    left: 40px; 
+    left: 20px; 
     width: 240px;
  }
 
@@ -797,7 +793,7 @@
 
   .list .address{
     margin-left: 60px;
-    top: -16px;
+    top: 20px;
     background-color: #094763d1;
     box-shadow: 2px 1px 10px #024a57;
     color: white;
@@ -808,13 +804,13 @@
   }
 
   .list .website{
-    top: -16px;
+    top: 20px;
     background-color: #094763d1;
     box-shadow: 2px 1px 10px #024a57;
     color: white;
     opacity: 0.8;
     height: 28px;
-    width: 140px;
+    width: 150px;
     position: relative;
     left: 190px;
   }
