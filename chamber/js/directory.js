@@ -1,6 +1,6 @@
 //--------------------------------------------- DIRECTORY PAGE  ------------------------------------//
 
-const requestURL = 'https://yamiriv1311.github.io/wdd230/chamber/data/data.json';
+const requestURL = '';
 const cards = document.querySelector('.cards');
 
 fetch(requestURL)
