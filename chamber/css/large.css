@@ -815,6 +815,34 @@
     left: 190px;
   }
 
+
+    
+  /*  --------------------------------------------- CONTACT PAGE --------------------------------------*/
+
+  form .fieldsetContact {
+    margin-left: 460px;
+    margin-bottom: 70px;
+  }
+
+
+  form .sendBtn{
+    margin-left: 535px;
+    margin-top: -20px;
+  }
+
+  .footer_contact{
+    margin-top: 550px;
+  }
+
+  /*  --------------------------------------------- THANKS 4 COMMENTS PAGE --------------------------------------*/
+
+  form .comments {
+    margin-left: 270px;
+  }
+
+  .footer_comments{
+    margin-top: 220px;
+  }
   
 }
 

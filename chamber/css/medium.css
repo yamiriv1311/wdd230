@@ -636,7 +636,7 @@
   .imageIcon{
     margin-top: 10px;
     width: auto;
-    height: 6 0px;
+    height: 60px;
   }
 
   .address{
@@ -771,7 +771,30 @@
     position: relative;
     left: 100px;
   }
-  
+
+    
+  /*  --------------------------------------------- CONTACT PAGE --------------------------------------*/
+
+  form .fieldsetContact {
+    margin-left: 230px;
+    margin-bottom: 70px;
+  }
+
+
+  form .sendBtn{
+    margin-left: 293px;
+    margin-top: -20px;
+  }
+
+
+  /*  --------------------------------------------- THANKS 4 COMMENTS PAGE --------------------------------------*/
+
+  form .comments {
+    margin-left: 50px;
+  }
+
+
+
 }
 
 
