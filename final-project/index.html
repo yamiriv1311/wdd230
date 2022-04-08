@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temple Inn & Suites</title>
+  <meta name="description" content="Home Page for the company Temple Inn & Suites">
+  <link rel="stylesheet" href="css/small.css">
+  <link rel="stylesheet" href="css/medium.css">
+  <link rel="stylesheet" href="css/large.css">
+
+</head>
+
+
+<body>
+  
+
+  <header>
+
+    <a href="index.html"><img src="images/logo.png" alt="logo" class="logo"></a>
+    <a href="reservation.html" class="reserveButton">Reserve now!</a>
+    <button id="menuButton"><span>&#9776;</span><span>X</span></button>
+    
+    <nav>
+      <ul id="ul_navigation">
+        <li><a href="index.html">Home Page</a></li>
+        <li><a href="temple.html">Temples</a></li>
+        <li><a href="reservation.html">Reservation</a></li>
+        <li><a href="services.html">Services</a></li>
+      </ul>
+    </nav>
+
+
+  </header>
+
+
+  <main>
+
+    <section class="section_contact">
+      <a href="https://www.instagram.com/?hl=es"><img src="https://cdn-icons-png.flaticon.com/512/725/725339.png" alt="ig" class="social_media"></a>
+      <a href="https://www.facebook.com"><img src="https://cdn-icons.flaticon.com/png/512/739/premium/739237.png?token=exp=1649393541~hmac=bb022485381b9a3df04689cbe13d10c1" alt="fb" class="social_media"></a>
+      <a href="https://www.whatsapp.com"><img src="https://cdn-icons-png.flaticon.com/512/1383/1383336.png" alt="wp" class="social_media"></a>
+    </section>
+
+    <img src="images/navimage.jpg" alt="img1" class="img1">
+
+    <h1 class="h1Welcome">Welcome!</h1>
+    <p class="welcome">
+      The <strong> Temple Inn & Suites </strong>is a hotel chain headquartered in Bethesda, MD that builds 
+      and manages specialized hotel accommodations near temple locations of The Church of
+      Jesus Christ of Latter-day Saints around the world. <br> <br>
+      We provide specialized services and accommodations that are available to anyone!
+    </p>
+
+    <div class="templesInformation">
+      <h2 class="h2temple">Monterrey Mexico Temple</h2>
+      <img src="https://assets.ldscdn.org/d2/04/d204b506a81b073c8026a7edcb7b5d1f1ce13c00385406/monterrey_mexico_temple_lds.jpeg" alt="temple1" class="temple1">
+      <p class="ptemple"><b>Pandemic Phase: </b>  3 - All living ordinances and limited proxy ordinance <br> <br>
+      <b>Dedicated: </b>28 April 2002</p>
+      <a href="temple.html" class="templesButton">Click for more information</a>
+    </div>
+
+    <div class="weather_section">
+      <h2 class="weather_title">Today's Weather</h2>
+
+      <div class="image_and_desc">
+        <figure>
+          <img src="https://openweathermap.org" alt="icon_weather" id="icon_weather" class="icon_weather">
+          <figcaption class="description_icon"></figcaption>
+        </figure>
+        <hr class="line_weather">
+      </div>
+    
+      <span id="temperature"></span>
+
+      <div class="humidity">
+        <p class="p_humidity">Humidity:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="humidity"></span></p>
+        <span id="forecast"></span>
+      </div>
+
+    </div>
+
+  </main>
+
+  <script src="js/javascript.js"></script>
+
+</body>
+</html>

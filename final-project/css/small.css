@@ -1,0 +1,241 @@
+
+/*  ------------- GENERAL STUFF --------------------*/
+
+body {
+  width: 370px;
+  height: auto;
+}
+
+/*  ------------- HEADER --------------------*/
+
+header{
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  margin: 0px 0px 0px 0px;
+  position: relative;
+}
+
+
+/*  ------------- NAVIGATION --------------------*/
+
+header button{
+  background-color: transparent;
+  border: none;
+  font-size: 23px;
+  color: rgb(79, 80, 2);
+  position: relative;
+  left: 80px;
+  top: -60px;
+}
+
+nav ul{
+  width: 290px;
+}
+
+nav ul li a{
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  padding: 1rem;
+  font-size: 14px;
+  color: rgb(227, 222, 222);
+  border-top: 1px solid rgb(79, 80, 2);;
+  z-index: 1;
+}
+
+nav ul li a:hover{
+  background-color: rgba(88, 91, 10, 0.3);
+}
+
+nav ul {display: none;}
+nav ul.open{display: block;}
+
+#menuButton span:nth-child(1) {display: block;}
+#menuButton span:nth-child(2) {display: none;}
+
+#menuButton.open span:nth-child(1) {display: none;}
+#menuButton.open span:nth-child(2) {display: block;}
+
+nav ul.open{margin-bottom: 0px;}
+
+
+/*  ------------- LOGO --------------------*/
+
+.logo{
+  width: 30%;
+}
+
+/*  ------------- RESERVATION BUTTON --------------------*/
+
+.reserveButton{
+  text-decoration: none;
+  background-color: rgb(58, 41, 2);
+  padding: 4%;
+  color: beige;
+  position: relative;
+  top: -50px;
+  left: 30px;
+}
+
+
+/*  ------------- FIRST IMAGE --------------------*/
+
+.img1{
+  width: 100%;
+  position: relative;
+  top: 0px;
+  z-index: -1;
+}
+
+/*  ------------- SECTION CONTACT SOCIAL MEDIA  --------------------*/
+
+.section_contact{
+  background-color: rgba(245, 245, 220, 0.454);
+  position: fixed;
+  top: 220px;
+  display: grid;
+  width: 40px;
+  padding: 3%;
+  z-index: 1;
+
+
+}
+
+.social_media{
+  width: 70%;
+}
+
+/*  ---------------- WELCOME SMALL SECTION   --------------------*/
+
+.h1Welcome{
+  color: rgb(57, 40, 18);
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: -20px;
+}
+
+.welcome{
+  position: relative;
+  top: 20px;
+  text-align: center;
+  background-color: rgba(245, 245, 220, 0.847);
+  font-size: 19px;
+  color: rgb(62, 43, 2);
+  padding: 12px;
+}
+
+/*  ------------- TEMPLE SECTION  --------------------*/
+
+.templesInformation{
+  height: 520px;
+  margin-top: 80px;
+  background-color: rgb(95, 68, 42);
+  margin-bottom: 40px;
+  z-index: 2;
+}
+
+/*  ------------- TEMPLE INFORMATION  --------------------*/
+
+.h2temple{
+  color: white;
+  position: absolute;
+  margin-left: 48px;
+  margin-top: 30px;
+  text-shadow: 2px 2px 20px #ffffff;
+  font-size: 25px;
+}
+
+.ptemple{
+  color: wheat;
+  position: relative;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 60px;
+}
+
+/*  -------------  TEMPLE IMAGE --------------------*/
+
+.temple1{
+  width: 84%;
+  position: relative;
+  top: 90px;
+  margin-left: 26px;
+  margin-bottom: 50px;
+}
+
+.temple1{
+  transition: transform .5s;
+}
+
+.temple1:hover{
+  box-shadow: 0px 0px 10px #fffdfd;
+  transform: scale(1.07);
+}
+
+
+/*  ------------- TEMPLES BUTTON --------------------*/
+
+
+.templesButton{
+  position: relative;
+  top: 20px;
+  padding: 4%;
+  text-decoration: none;
+  background-color: rgba(231, 231, 231, 0.872);;
+  margin-left: 60px;
+  color: rgb(18, 18, 18);
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+.templesButton:hover{
+  background-color: bisque;
+  color: rgb(84, 65, 26);
+}
+
+/*  ------------- WEATHER --------------------*/
+
+.weather_section{
+  height: 400px;
+  border: 2px rgba(56, 52, 52, 0.541) dashed;
+  width: 270px;
+  margin-left: 50px;
+}
+
+.weather_title{
+  color: rgb(101, 84, 51);
+  text-align: center;
+  font-size: 34px;
+}
+
+.description_icon{
+  background-color: rgba(129, 131, 17, 0.555) ;
+  width: 170px;
+  text-align: center;
+  color: rgb(73, 74, 23);
+  font-size: 25px;
+  text-transform: capitalize;
+  margin-top: 20px;
+}
+
+.line_weather{
+  width: 230px;
+}
+
+.icon_weather{
+  width: 60%;
+}
+
+#temperature{
+  font-size: 37px;
+  position: relative;
+  top: -200px;
+  margin-left: 160px;
+}
+
+.humidity{
+  font-size: 20px;
+  position: relative;
+  top: -40px;
+  margin-left: 50px;
+}
