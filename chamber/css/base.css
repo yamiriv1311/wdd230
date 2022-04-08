@@ -1042,10 +1042,14 @@ form .fieldsetContact {
   margin-bottom: 70px;
 }
 
-form .legendContact{
+form .h1Contact{
   font-size: 40px;
-  color: #ffffff;
-  margin-left: 50px;
+  color: #000000;
+  margin-left: -20px;
+  background-color: transparent;
+  position: relative;
+  top: 20px;
+  text-shadow: 2px 2px 1  0px #034768;
 }
 
 
@@ -1107,7 +1111,13 @@ form .fieldsetContact:before {
 }
 
 
-form .comments {
+/*  --------------------------------------------- THANKS 4 COMMENTS PAGE --------------------------------------*/
+
+
+
+form .h1comments {
+  color: #fff;
+  width: 260px; 
   border: none;
   margin-top: 60px;
   text-align: center;
@@ -1115,13 +1125,12 @@ form .comments {
   border-radius: 5px;
 	box-shadow: 0 0 20px rgb(14, 1, 1);
   padding: .5rem 2%;
-  margin-left: 30px;
+  margin-left: 50px;
   margin-bottom: 70px;
 }
 
 
-
-form .comments:before {
+form .h1comments:before {
 	background-image:url("https://a.travel-assets.com/findyours-php/viewfinder/images/res40/168000/168579-Museo-Soumaya.jpg");
 	width: 100%;
 	height: 100%;
