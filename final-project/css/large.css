@@ -1,4 +1,234 @@
 
 @media only screen and (min-width: 790px) {
+
+  body {
+    width: 1210px;
+    height: auto;
+  }
   
+  /*  ------------- HEADER --------------------*/
+  
+  header{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 240px;
+    margin: 0px 0px 0px 0px;
+    position: relative;
+  }
+  
+  
+  /*  ------------- NAVIGATION --------------------*/
+  
+  header button{
+    display: none;
+  }
+
+  nav ul {display: block;}
+ 
+  
+  nav ul{
+    display: flex;
+    position: relative;
+    top: -170px;
+    margin-left: 300px;
+    width: 800px;
+    font-size: 20px;
+  }
+
+  nav ul li a{
+    padding: 2rem 4rem;
+    position: relative;
+    margin-top: -10px;
+    font-size: 17px;
+  }
+    
+  
+  /*  ------------- LOGO --------------------*/
+  
+  .logo{
+    width: 26%;
+    height: 230px;
+  }
+  
+  /*  ------------- RESERVATION BUTTON --------------------*/
+  
+  .reserveButton{
+    padding: 1%;
+    width: 300px;
+    position: relative;
+    top: -30px;
+    left: 360px;
+  }
+
+  a.reserveButton{
+    font-size: 17px;
+    border-radius: 10px;
+  }
+
+  
+  /*  ------------- SECTION CONTACT SOCIAL MEDIA  --------------------*/
+  
+  .section_contact{
+    background-color: rgba(245, 245, 220, 0.454);
+    position: fixed;
+    top: 220px;
+    display: grid;
+    width: 50px;
+    padding: 2%;
+    z-index: 1;
+  }
+  
+
+  
+  /*  ---------------- WELCOME SMALL SECTION   --------------------*/
+  
+  .h1Welcome{
+    font-size: 36px;
+  }
+  
+  
+  /*  ------------- TEMPLE SECTION  --------------------*/
+  
+  .templesInformation{
+    height: 600px;
+    width: 370px;
+  }
+
+  .templesInformation2{
+    display: block;
+    margin-top: -20px;
+  }
+  
+  /*  ------------- TEMPLE INFORMATION  --------------------*/
+  
+  .h2temple{
+    color: white;
+    position: absolute;
+    margin-left: 36px;
+    margin-top: 50px;
+    font-size: 27px;
+  }
+  
+  .ptemple{
+    color: wheat;
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 120px;
+  }
+  
+  /*  -------------  TEMPLE IMAGE --------------------*/
+  
+  .temple1{
+    width: 77%;
+    position: relative;
+    top: 130px;
+    margin-left: 40px;
+  }
+  
+  .temple2{
+    height: 270px;
+    position: relative;
+    top: -520px;
+    left: 490px;
+  }
+
+  .temple2{
+    transition: transform .5s;
+  }
+  
+  .temple2:hover{
+    box-shadow: 0px 0px 10px #3b2f06;
+    transform: scale(1.07);
+  }
+
+  /*  ------------- TEMPLES BUTTON --------------------*/
+  
+  
+  .templesButton{
+    margin-left: 56px;
+  }
+  
+  .templesButton:hover{
+    background-color: bisque;
+    color: rgb(84, 65, 26);
+  }
+
+  
+.templesButton2{
+  position: relative;
+  top: 20px;
+  padding: 2%;
+  text-decoration: none;
+  background-color: rgba(231, 231, 231, 0.872);;
+  margin-left: 450px;
+  color: rgb(18, 18, 18);
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+.templesButton2:hover{
+  background-color: bisque;
+  color: rgb(84, 65, 26);
+}
+  
+  /*  ------------- WEATHER --------------------*/
+  
+  .weather_section{
+    position: absolute;
+    top: 1370px;
+    height: 450px;
+    padding: 4%;
+    border: 2px rgba(56, 52, 52, 0.541) dashed;
+    width: 270px;
+    margin-left: 820px;
+  }
+  
+  .weather_title{
+    color: rgb(101, 84, 51);
+    text-align: center;
+    font-size: 34px;
+  }
+  
+  .description_icon{
+    background-color: rgba(129, 131, 17, 0.555) ;
+    width: 170px;
+    text-align: center;
+    color: rgb(73, 74, 23);
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-top: 20px;
+  }
+  
+  .line_weather{
+    width: 230px;
+  }
+  
+  .icon_weather{
+    width: 60%;
+  }
+  
+  #temperature{
+    font-size: 37px;
+    position: relative;
+    top: -200px;
+    margin-left: 160px;
+  }
+  
+  .humidity{
+    font-size: 20px;
+    position: relative;
+    top: -40px;
+    margin-left: 50px;
+  }
+
+  /*  ------------- FOOTER --------------------*/
+
+  .p_footer{
+    width: 800px;
+    margin-left: 290px;
+    margin-top: -40px;
+    font-size: 19px;
+  }
+
 }

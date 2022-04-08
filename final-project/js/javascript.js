@@ -1,6 +1,6 @@
 
 
-//----------------------------------------- MENU / NAVOGATION ---------------------//
+//----------------------------------------- MENU / NAVIGATION ---------------------//
 
 function toggleMenu(){
   document.getElementById("ul_navigation").classList.toggle("open");
@@ -37,3 +37,15 @@ fetch(apiURL)
     document.querySelector("#humidity").innerHTML = `${humidity.toFixed(0)}%`;
    // document.querySelector("#forecast").innerHTML = `${forecast}`;
   });
+
+
+
+  
+//-------------- LAST MODIFICATION ----------------------//
+
+document.querySelector("#dateFooter").textContent = document.lastModified;
+var options = {year: "numeric"};
+document.querySelector("#year").textContent = new Date().toLocaleDateString("en-US", options);
+
+
+//-------------- LAST MODIFICATION ----------------------//
