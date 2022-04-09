@@ -1,6 +1,6 @@
 //--------------------------------------------- TEMPLES PAGE  ------------------------------------//
 
-const requestURL = 'https://yamiriv1311.github.io/wdd230/final-project/data/data1.json';
+const requestURL = 'https://yamiriv1311.github.io/wdd230/final-project/data/data.json';
 const cards = document.querySelector('.cards');
 
 fetch(requestURL)
@@ -71,8 +71,8 @@ function displayTemple(templeInfo) {
   card.appendChild(img);
   card.appendChild(phone);
   card.appendChild(situation);
-  card.appendChild(address);
   card.appendChild(services);
+  card.appendChild(address);
   card.appendChild(appointment);
 
   // Add/append the existing HTML div with the cards class with the section(card)
