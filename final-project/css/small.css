@@ -97,8 +97,6 @@ nav ul.open{margin-bottom: 0px;}
   width: 40px;
   padding: 3%;
   z-index: 1;
-
-
 }
 
 .social_media{
@@ -508,6 +506,7 @@ form fieldset:before {
   font-size: 30px;
   margin-left: 130px;
 }
+
 main.mainThanks:before {
 	background-image: url("https://assets.ldscdn.org/b5/37/b537f20ccdd2f7ba4f3413a055bcaab21fd3e107/rome_italy_temple.png");
 	width: 100%;
@@ -543,3 +542,85 @@ main.mainThanks:before {
   margin-left: 100px;
 }
 
+/*  --------------------------------------------- SERVICES PAGE! --------------------------------------*/
+
+.section_contactServices{
+  background-color: rgba(245, 245, 220, 0.454);
+  position: absolute;
+  top: 230px;
+  display: grid;
+  width: 40px;
+  padding: 3%;
+  z-index: 1;
+}
+
+
+.servicesList{
+  margin-bottom: -80px;
+  background-color: #47440fac;
+  height: 270px;
+  margin-top: 40px;
+}
+
+.listBullet1{
+  font-size: 17px;
+  width: 180px;
+  text-align: center;
+  position: relative;
+  top: 60px;
+  color: white;
+  padding: 2%;
+}
+
+.bathroom{
+  width: 40%;
+  float: right;
+  margin-top: -130px;
+  margin-right: 20px;
+  box-shadow: 0px 0px 20px white;
+
+}
+
+.servicesList2{
+  margin-top: 130px;
+  background-color: #868685ac;
+  height: 270px;
+}
+
+.listBullet2{
+  font-size: 17px;
+  width: 170px;
+  text-align: center;
+  position: relative;
+  top: 80px;
+  left: 170px;
+}
+
+.playroom{
+  width: 40%;
+  float: left;
+  margin-top: -70px;
+  margin-left: 10px;
+}
+
+.listBullet3{
+  width: 150px;
+  position: relative;
+  color: white;
+  top: 90px;
+  left: 20px;
+  text-align: center;
+}
+
+.reception{
+  width: 40%;
+  float: right;
+  margin-right: 30px;
+  margin-top: -40px;
+  box-shadow: 0px 0px 30px white;
+}
+
+
+.footerServices{
+  margin-top: 800px;
+}
