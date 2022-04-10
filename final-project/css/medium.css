@@ -458,7 +458,7 @@
     font-size: 22px;
     text-align: center;
   }
-  
+
   .servicesList4{
     margin-top: 130px;
     background-color: transparent;
@@ -549,6 +549,135 @@
 
   .footerServices{
     margin-top: 50px;
+  }
+
+  /*  --------------------------------------------- WEDDING PAGE --------------------------------------*/
+
+  .weddingDiv{
+    margin-bottom: 80px;
+  }
+
+  .wedh1{
+    background-color: #847751;
+    color: white;
+    padding: 2%;
+    font-size: 26px;
+    margin-left: 270px;
+    margin-top: 70px;
+    margin-bottom: -20px;
+    width: 250px;
+    border-radius: 20px;
+    text-align: center;
+  }
+
+  .suitesTitles{
+    margin-top: 80px;
+    font-size: 26px;
+    color: #47440f;
+    border: solid;
+    width: 180px;
+    padding: 2%;
+    border-color: #4f482d92;
+    text-align: center;
+  }
+
+
+  .reserveWedding{
+    text-decoration: none;
+    font-size: 30px;
+    padding: 2%;
+    margin-left: 300px;
+    color: #4f482d;
+    background-color: rgb(180, 166, 120);
+  }
+
+  .suitesTitles{
+    margin-left: 20px;
+  }
+
+  .suiteIMG{
+    width: 90%;
+    margin-left: 30px;
+  }
+
+  .divPics{
+    display: block;
+  }
+
+  .wedding1{
+    width: 50%;
+  }
+
+  .wedding2{
+    width: 50%;
+    position: relative;
+    left: 378px;
+  }
+
+  .wedding3{
+    width: 48.6%;
+    position: absolute;
+    left: 10px;
+    margin-top: 3px;
+  }
+  
+  .wedding4{
+    width: 49%;
+    position: relative;
+    margin-left: 0px;
+    top: -260px;
+  }
+
+  /*  --------------------------------------------- MISSIONARY PAGE --------------------------------------*/
+
+  .wedh1{
+    background-color: #847751;
+    color: white;
+    padding: 2%;
+    font-size: 26px;
+    margin-left: 170px;
+    margin-top: 70px;
+    margin-bottom: -20px;
+    width: 340px;
+    border-radius: 20px;
+    text-align: center;
+  }
+
+  .mission1{
+    width: 50%;
+  }
+
+  .mission2{
+    width: 48%;
+  }
+
+  .mission3{
+    width: 50%;
+  }
+
+  .mission4{
+    width: 48%;
+  }
+
+  .pSuites{
+    font-size: 24px;
+  }
+
+  .legendContact{
+    padding: 2%;
+    margin-left: 290px;
+  }
+
+  form fieldset.fieldsetContact{
+    width: 40%;
+    margin-left: 230px;
+  }
+
+  form .sendBtn{
+    padding: 1%;
+    margin-left: 305px;
+    margin-bottom: 100px;
+    width: 170px;
   }
 
 }

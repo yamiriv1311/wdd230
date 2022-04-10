@@ -402,7 +402,7 @@ footer{
 
 /*  ------------------------------------------- RESERVATION PAGE ---------------------------------------------*/
 
-form fieldset {
+form fieldset.reservationFieldset {
   border: rgba(60, 51, 9, 0.502) solid;
   border-radius: 10px;
   padding: .5rem 2%;
@@ -499,7 +499,7 @@ form input.reserveBtn{
   margin-bottom: 30px;
 }
 
-form fieldset:before {
+form fieldset.reservationFieldset:before {
 	background-image: url("https://assets.ldscdn.org/05/ba/05baca7fd19cb67cd1379e82b1d38ef996ec2eb2/mexico_city_temple_lds.jpg");
 	width: 100%;
 	height: 100%;
@@ -746,3 +746,110 @@ main.mainThanks:before {
 .footerServices{
   margin-top: 50px;
 }
+
+/*  --------------------------------------------- WEDDING PAGE --------------------------------------*/
+
+.wedh1{
+  background-color: #847751;
+  color: white;
+  padding: 4%;
+  font-size: 23px;
+  margin-left: 40px;
+  margin-top: 70px;
+  margin-bottom: -20px;
+  width: 250px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.weddingDiv{
+  margin-bottom: 80px;
+}
+
+.suitesTitles{
+  margin-top: 80px;
+  font-size: 26px;
+  color: #47440f;
+  border: solid;
+  width: 180px;
+  padding: 2%;
+  border-color: #4f482d92;
+  text-align: center;
+}
+
+.suiteIMG{
+  width: 90%;
+  margin-left: 10px;
+}
+
+
+.pSuites{
+  font-size: 22px;
+  margin-left: 20px;
+  color: rgba(65, 62, 62, 0.753);
+}
+
+
+.liSuite{
+  font-size: 20px;
+  color: rgba(84, 54, 17, 0.922);
+  margin-left: 40px;
+  margin-right: 10px;
+}
+
+.reserveWedding{
+  text-decoration: none;
+  font-size: 30px;
+  padding: 2%;
+  margin-left: 90px;
+  color: #4f482d;
+  background-color: rgb(180, 166, 120);
+}
+
+.reserveWedding:hover{
+  background-color: #372b06;
+  color: white;
+}
+
+.reservationDiv{
+  margin-bottom: 60px;
+}
+
+.divPics{
+  display: none;
+}
+
+
+/*  --------------------------------------------- MISSIONARY PAGE --------------------------------------*/
+
+
+.suitesMissionaries{
+  width: 90%;
+  margin-left: 10px;
+}
+
+.legendContact{
+  background-color: #5d451d;
+  color: wheat;
+  padding: 4%;
+  border-radius: 20px;
+  text-align: center;
+  width: 200px;
+  margin-left:60px;
+}
+
+form fieldset.fieldsetContact{
+  width: 80%;
+  margin-left: 10px;
+}
+
+form .sendBtn{
+  background-color: #ac987d;
+  margin-top: 50px;
+  margin-left: 110px;
+  font-size: 20px;
+  color: rgb(66, 41, 13);
+  border: none;
+  padding: 3%;
+}
+
