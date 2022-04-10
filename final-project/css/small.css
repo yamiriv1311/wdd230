@@ -627,6 +627,27 @@ main.mainThanks:before {
   text-align: center;
 }
 
+.servicesList3{
+  margin-top: 130px;
+  background-color: transparent;
+  height: 270px;
+}
+
+.listBullet4{
+  font-size: 17px;
+  width: 170px;
+  text-align: center;
+  position: relative;
+  top: 80px;
+  left: 170px;
+}
+
+.servicesList4{
+  margin-top: 130px;
+  background-color: transparent;
+  height: 270px;
+}
+
 .reception{
   width: 40%;
   float: right;
@@ -635,7 +656,26 @@ main.mainThanks:before {
   box-shadow: 0px 0px 30px white;
 }
 
+.oficines{
+  width: 40%;
+  float: left;
+  margin-top: -70px;
+  margin-left: 10px;
+}
+
 .specialPackage{
+  background-color: #847751;
+  color: white;
+  width: 310px;
+  margin-left: 10px;
+  padding: 4%;
+  text-align: center;
+  font-family: 'Anek Tamil', sans-serif;
+  border-radius: 20px;
+  margin-top: 50px;
+}
+
+.specialPackage2{
   background-color: #847751;
   color: white;
   width: 310px;
@@ -652,6 +692,10 @@ main.mainThanks:before {
   margin-left: 30px;
 }
 
+.missionaries{
+  width: 80%;
+  margin-left: 30px;
+}
 
 .weddingButton{
   background-color: #878787b0;
@@ -695,6 +739,10 @@ main.mainThanks:before {
   margin-left: 90px;
 }
 
+.listAmenities{
+  color: #472f0f;
+}
+
 .footerServices{
-  margin-top: 800px;
+  margin-top: 50px;
 }

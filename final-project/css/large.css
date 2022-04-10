@@ -413,4 +413,184 @@
   .footerThanks{
     margin-top: 200px;
   }
+
+  
+  /*  --------------------------------------------- SERVICES PAGE! --------------------------------------*/
+
+  .servicesList{
+    margin-bottom: -300px;
+    background-color: #47440fac;
+    height: 270px;
+    margin-top: 40px;
+    width: 560px;
+  }
+
+  .listBullet1{
+    font-size: 22px;
+    width: 300px;
+    margin-left: 10px;
+  }
+
+  .bathroom{
+    width: 27%;
+    float: none;
+    position: relative;
+    top: 6px;
+    margin-left: 350px;
+    margin-right: 150px;
+    box-shadow: 0px 0px 20px white;
+  }
+
+  .servicesList2{
+    position: relative;
+    margin-top: 0px;
+    background-color: transparent;
+    height: 270px;
+  }
+
+  .playroom{
+    width: 14%;
+    float: none;
+    position: relative;
+    top: 0px;
+    left: 830px;
+    box-shadow: 0px 0px 20px rgb(84, 60, 10);
+  }
+
+  .listBullet2{
+    width: 300px;
+    position: relative;
+    color: rgb(5, 5, 5);
+    top: 100px;
+    left: 625px;
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .listBullet3{
+    width: 300px;
+    position: relative;
+    color: rgb(6, 6, 6);
+    top: 90px;
+    font-size: 22px;
+    left: 20px;
+    text-align: center;
+  }
+
+  
+  .servicesList3{
+    width: 560px;
+    background-color: white;
+  }
+
+  .servicesList4{
+    background-color: #47440fac;
+    position: absolute;
+    margin-bottom: -300px;
+    height: 270px;
+    margin-top: -200px;
+    width: 560px;
+    margin-left: 600px;
+  }
+
+  .listBullet4{
+    width: 300px;
+    position: relative;
+    color: rgb(255, 255, 255);
+    top: 80px;
+    left: 20px;
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .oficines{
+    width: 27%;
+    height: 220px;
+    float: none;
+    position: relative;
+    top: -10px;
+    left: 220px;
+    box-shadow: 0px 0px 20px white;
+  }
+
+  .reception{
+    width: 30%;
+    float: none;
+    margin-left: 340px;
+    margin-top: -40px;
+    box-shadow: 0px 0px 20px rgb(84, 60, 10);
+  }
+
+  .packagesWM{
+    margin-top: 200px;
+  }
+
+  .specialPackage{
+    background-color: #847751;
+    color: white;
+    width: 310px;
+    margin-left:100px;
+    padding: 2%;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .specialPackage2{
+    background-color: #847751;
+    color: white;
+    position: absolute;
+    width: 340px;
+    margin-left: 700px;
+    padding: 2.1%;
+    font-size: 18px;
+    margin-top: -536px;
+  }
+
+  .wedding{
+    width: 24%;
+    margin-left: 130px;
+  }
+
+  .missionaries{
+    width: 30%;
+    margin-left: 720px;
+    position: relative;
+    top: -440px;
+    height: 410px;
+  }
+  
+  .weddingButton{
+    margin-left: 200px;
+    padding: 2%;
+  }
+
+  .btnMissionaries{
+    margin-top: -679px;
+    margin-left: 840px;
+    padding: 2%;
+  }
+
+  .btnMissionaries:hover{
+    background-color: #483314e5;
+  }
+
+  .h2Amenities{
+    background-color: #4f482d;
+    width: 700px;
+    text-align: center;
+    color: white;
+    margin-top: -350px;
+    padding: 2%;
+    margin-left: 250px;
+  }
+
+  .listAmenities{
+    color: #472f0f;
+    font-size: 20px;
+  }
+
+  .footerServices{
+    margin-top: 50px;
+  }
+
 }
