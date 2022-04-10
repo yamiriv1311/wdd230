@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>References</title>
+  <title>Reservation</title>
   <meta name="description" content="References of the Temple Inn & Suites Page">
   <link rel="stylesheet" href="css/small.css">
   <link rel="stylesheet" href="css/medium.css">
@@ -37,21 +37,69 @@
 
   <main>
 
-    <h1 class="h1Temples">Ready to reserve?</h1>
-
-    <div>
-      <p>Forms that asked for locatin, date, number of rooms, fullname, emailm phone, home state or country, 
-        comments + validation page
-      </p>
+    <h1 class="h1Temples">Reservation</h1>
     
+    <div class="divForms">
+      <form method="get" action="thanks.html">
+
+        <fieldset>
+          <legend>Lodging</legend>
+
+          <label class="text">Date*<input type="date" name="reservationDate" title="Please select the date you want to arrive your hotel" required></label>
+          
+          <label class="text">Location*
+            <select name="subject" title="Please select the location of your hotel" required>
+                  <option value="">Please Select</option>
+              <option value="software">Albuquerque, New Mexico</option>
+              <option value="creative">Anchorage, Alaska</option>
+              <option value="info">Baton Rouge, Louisiana</option>
+              <option value="data">Belmont, Massachusetts</option>
+              <option value="construction">Billings, Montana</option>
+              <option value="manufacturing">Bismarck, North Dakota</option>
+              <option value="business">Bloomfield Hills, Michigan</option>
+              <option value="security">Boise, Idaho</option>
+              <option value="security">Bountiful, Utah</option>
+              <option value="security">Brigham City, Utah</option>
+              <option value="security">Cedar City, Utah</option>
+              <option value="security">Centennial, Colorado</option>
+              <option value="security">Columbus, Ohio</option>
+            </select>
+          </label>
+
+
+          <div class="divRooms">Rooms*</div>
+          <label class="room"><input type="checkbox" name="individual" value="individual">Individual</label>
+          <label class="room"><input type="checkbox" name="double" value="double">Double</label>
+          <label class="room"><input type="checkbox" name="triple" value="triple">Triple</label>
+
+          <div class="divRooms">Number of Rooms*</div>
+          <label class="textrooms"><input type="number" name="rooms" title="Please select the type of rooms you want and insert the number of rooms" required></label>
+
+          <div class="divRooms">Special Accomodations/Comments</div>
+          <label class="comments"><textarea name="bdesc" cols="38" rows="7"></textarea></label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Registrant's Information</legend>
+          <label class="text">Full Name*<input type="text" name="fname" title="Please write your fullname" required></label>
+          <label class="text">Phone*<input type="tel" name="phone" title="Please write your phone number" placeholder="1235551234" required></label>
+          <label class="text">Email*<input type="email" name="email" title="Please write your personal email"  placeholder="someone@gmail.com" required></label>
+          <label class="text">Home<input type="text" name="home" placeholder="State, Country"></label>
+        </fieldset>
+
+
+        <input type="submit" value="I want to brook!" class="reserveBtn">
+
+      </form>
+
     </div>
 
-    
+  </div>
 
   </main>
 
 
-  <footer>
+  <footer class="footerReservation">
     
     <div class="footer_homepage">
       <img src="images/logo.png" alt="logo" class="logo">
@@ -63,7 +111,6 @@
   </footer>
 
   <script src="js/javascript.js"></script>
-  <script src="js/temples.js"></script>
 
 
 </body>

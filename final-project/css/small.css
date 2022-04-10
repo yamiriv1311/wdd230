@@ -385,3 +385,161 @@ footer{
   box-shadow: 2px 2px 10px rgb(84, 77, 17);
 
 }
+
+
+/*  ------------------------------------------- RESERVATION PAGE ---------------------------------------------*/
+
+form fieldset {
+  border: rgba(60, 51, 9, 0.502) solid;
+  border-radius: 10px;
+  padding: .5rem 2%;
+  width: 290px;
+  margin-left: 30px;
+  margin-bottom: 70px;
+  background-color: rgba(255, 255, 255, 0.541);
+}
+
+form legend{
+  font-size: 21px;
+  color: #372b06;
+  background-color: rgba(197, 195, 155, 0.881);
+  padding: 4%;
+  border-radius: 20px;
+  text-align: center;
+  width: 200px;
+}
+
+form label.text{
+  display: block;
+  padding-top: 2rem;
+  color: #47440f;
+  font-size: 17px;
+  width: 260px;
+}
+
+form div.divRooms{
+  display: block;
+  color: #6c6717;
+  font-size: 17px;
+}
+
+
+form label.text input{
+  font-size: 1rem;
+  border: solid 1px ;
+  border-radius: 4px;
+  padding: .75rem;
+  color: #555;
+  width: 100%;
+  max-width: 20rem;
+  background-color: #eee;
+}
+
+form label.text select{
+  font-size: 1rem;
+  border: solid 1px ;
+  border-radius: 4px;
+  padding: .75rem;
+  color: #555;
+  width: 110%;
+  max-width: 20rem;
+  background-color: #eee; 
+}
+
+form label.textrooms input{
+  font-size: 1rem;
+  width: 260px;
+  background-color: #eee; 
+  border: solid 1px ;
+  border-radius: 4px;
+  padding: .75rem;
+  color: #555;
+}
+
+form label.text, form div {
+  display: block;
+  padding-top: 22px;
+}
+
+form textarea{
+  width: 285px;
+  background-color: #eee;
+  border-radius: 4px;
+  color: #555;
+}
+
+form label.room {
+  display: block;
+  padding: .80rem 0;
+  color: rgb(3, 4, 3);
+  font-size: 17px;
+}
+
+form input.reserveBtn{
+  border: none;
+  font-size: 18px;
+  background-color: #0a5b28;
+  color: white;
+  padding: .75rem 1.5rem;
+  width: auto;
+  margin-left: 90px;
+  margin-bottom: 30px;
+}
+
+form fieldset:before {
+	background-image: url("https://assets.ldscdn.org/05/ba/05baca7fd19cb67cd1379e82b1d38ef996ec2eb2/mexico_city_temple_lds.jpg");
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	content: "";
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: -1;
+	display: block;
+}
+
+/*  --------------------------------------------- THANKS PAGE!! --------------------------------------*/
+
+
+.h1Thanks{
+  font-size: 30px;
+  margin-left: 130px;
+}
+main.mainThanks:before {
+	background-image: url("https://assets.ldscdn.org/b5/37/b537f20ccdd2f7ba4f3413a055bcaab21fd3e107/rome_italy_temple.png");
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	content: "";
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: -1;
+	display: block;
+}
+
+
+.divThanks{
+  background-color: rgba(255, 255, 254, 0.669);
+  border-radius: 20px;
+  margin-left: 30px;
+  width: 300px;
+}
+
+.thanksParagraph{
+  color: black;
+  width: 280px;
+  text-align: center;
+  padding: 2%;
+}
+
+.confirmationIcon{
+  width: 40%;
+  margin-left: 100px;
+}
+

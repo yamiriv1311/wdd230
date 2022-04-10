@@ -147,6 +147,7 @@
   
   .templesButton{
     margin-left: 56px;
+    top: 30px;
   }
   
   .templesButton:hover{
@@ -157,8 +158,8 @@
   
 .templesButton2{
   position: relative;
-  top: 20px;
-  padding: 2%;
+  top: 10px;
+  padding: 1.5%;
   text-decoration: none;
   background-color: rgba(231, 231, 231, 0.872);;
   margin-left: 450px;
@@ -320,4 +321,63 @@
     margin-top: 70px;
   }
 
+  /*  ------------------------------------------- RESERVATION PAGE ---------------------------------------------*/
+
+  .divForms{
+    position: relative;
+    margin-left: 420px;
+    margin-top: 100px;
+  }
+
+  form label.text{
+    font-size: 22px;
+  }
+  
+  form div.divRooms{
+    font-size: 22px;
+  }
+  
+
+  form input.reserveBtn{
+    font-size: 23px;
+    margin-left: 96px;
+  }
+
+  .footerReservation{
+    margin-top: 100px;
+  }
+
+  /*  --------------------------------------------- THANKS PAGE!! --------------------------------------*/
+
+   .h1Thanks{
+    font-size: 50px;
+    margin-left: 550px;
+    margin-top: 100px;
+  }
+
+
+  .divThanks{
+    background-color: rgba(247, 247, 247, 0.676);
+    border-radius: 20px;
+    margin-left: 370px;
+    margin-top: 100px;
+    width: 500px;
+  }
+
+  .thanksParagraph{
+    color: rgb(5, 5, 5);
+    width: 480px;
+    font-size: 23px;
+    text-align: center;
+    padding: 4%;
+  }
+
+  .confirmationIcon{
+    width: 20%;
+    margin-left: 500px;
+  }
+
+  .footerThanks{
+    margin-top: 200px;
+  }
 }

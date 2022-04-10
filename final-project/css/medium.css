@@ -329,4 +329,53 @@
     margin-top: 70px;
   }
 
+  /*  ------------------------------------------- RESERVATION PAGE ---------------------------------------------*/
+
+  .divForms{
+    position: relative;
+    margin-left: 220px;
+    margin-top: 100px;
+  }
+
+  form label.text{
+    font-size: 22px;
+  }
+  
+  form div.divRooms{
+    font-size: 22px;
+  }
+  
+
+  form input.reserveBtn{
+    margin-left: 100px;
+  }
+
+  /*  --------------------------------------------- THANKS PAGE!! --------------------------------------*/
+
+  .h1Thanks{
+    font-size: 50px;
+    margin-left: 300px;
+  }
+
+
+  .divThanks{
+    background-color: rgba(255, 255, 255, 0.717);
+    border-radius: 20px;
+    margin-left: 80px;
+    width: 600px;
+  }
+
+  .thanksParagraph{
+    color: rgb(0, 0, 0);
+    width: 600px;
+    font-size: 23px;
+    text-align: center;
+    padding: 2%;
+  }
+
+  .confirmationIcon{
+    width: 30%;
+    margin-left: 270px;
+  }
+
 }
