@@ -228,8 +228,41 @@
   .p_footer{
     width: 800px;
     margin-left: 290px;
-    margin-top: -40px;
+    position: absolute;
+    margin-top: 30px;
     font-size: 19px;
+  }
+
+  .iframeFooter{
+    width: 26%;
+    position: relative;
+    top: -40px;
+    left: 200px;
+  }
+
+  .resourcesLink{
+    position: relative;
+    top: -4px;
+    left: 340px;
+    text-decoration: none;
+    color: #979748;
+    font-size: 17px;
+  }
+
+  .section_contact{
+    background-color: rgba(245, 245, 220, 0.454);
+    position: relative;
+    top: 0px;
+    display: flex;
+    width: 20%;
+    padding: 2%;
+    z-index: 1;
+  }
+
+
+  .social_media{
+    width: 50%;
+    margin-left: 0px;
   }
 
   /*  ------------------------------------------- TEMPLES PAGE ---------------------------------------------*/

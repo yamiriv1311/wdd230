@@ -63,21 +63,7 @@
     border-radius: 10px;
   }
 
-  
-  /*  ------------- SECTION CONTACT SOCIAL MEDIA  --------------------*/
-  
-  .section_contact{
-    background-color: rgba(245, 245, 220, 0.454);
-    position: fixed;
-    top: 220px;
-    display: grid;
-    width: 50px;
-    padding: 2%;
-    z-index: 1;
-  }
-  
-
-  
+    
   /*  ---------------- WELCOME SMALL SECTION   --------------------*/
   
   .h1Welcome{
@@ -220,10 +206,32 @@
   /*  ------------- FOOTER --------------------*/
 
   .p_footer{
-    width: 400px;
-    margin-left: 290px;
+    width: 350px;
+    margin-left: 210px;
     margin-top: -40px;
     font-size: 15px;
+  }
+
+  .iframeFooter{
+    width: 20%;
+    height: auto;
+    position: relative;
+    top: 0px;
+    left: 0px;
+  }
+
+  .resourcesLink{
+    position: relative;
+    top: -70px;
+    left: 100px;
+    text-decoration: none;
+    color: #979748;
+    font-size: 17px;
+  }
+
+  .social_media{
+    width: 20%;
+    margin-left: 60px;
   }
 
   

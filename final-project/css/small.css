@@ -87,21 +87,6 @@ nav ul.open{margin-bottom: 0px;}
   z-index: -1;
 }
 
-/*  ------------- SECTION CONTACT SOCIAL MEDIA  --------------------*/
-
-.section_contact{
-  background-color: rgba(245, 245, 220, 0.454);
-  position: fixed;
-  top: 220px;
-  display: grid;
-  width: 40px;
-  padding: 3%;
-  z-index: 1;
-}
-
-.social_media{
-  width: 70%;
-}
 
 /*  ---------------- WELCOME SMALL SECTION   --------------------*/
 
@@ -282,14 +267,44 @@ footer{
 
 .p_footer{
   color: #878787;
-  width: 290px;
+  width: 300px;
   text-align: center;
-  margin-left: 20px;
-  margin-top: 20px;
+  margin-left: 26px;
+  margin-top: -50px;
   font-size: 15px;
 }
 
+.iframeFooter{
+  width: 25%;
+  height: 100px;
+  position: relative;
+  top: -100px;
+  margin-left: 220px;
+}
 
+.resourcesLink{
+  position: relative;
+  top: 40px;
+  left: 9px;
+  text-decoration: none;
+  color: #979748;
+  font-size: 17px;
+}
+
+.section_contact{
+  background-color: rgba(245, 245, 220, 0.454);
+  position: relative;
+  top: 0px;
+  display: flex;
+  width: 100%;
+  padding: 3%;
+  z-index: 1;
+}
+
+.social_media{
+  width: 40%;
+  margin-left: 20px;
+}
 
 /*  ------------------------------------------- TEMPLES PAGE ---------------------------------------------*/
 
