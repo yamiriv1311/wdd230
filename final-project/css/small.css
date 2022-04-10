@@ -598,7 +598,7 @@ main.mainThanks:before {
 
 .servicesList2{
   margin-top: 130px;
-  background-color: #868685ac;
+  background-color: transparent;
   height: 270px;
 }
 
@@ -635,6 +635,65 @@ main.mainThanks:before {
   box-shadow: 0px 0px 30px white;
 }
 
+.specialPackage{
+  background-color: #847751;
+  color: white;
+  width: 310px;
+  margin-left: 10px;
+  padding: 4%;
+  text-align: center;
+  font-family: 'Anek Tamil', sans-serif;
+  border-radius: 20px;
+  margin-top: 50px;
+}
+
+.wedding{
+  width: 80%;
+  margin-left: 30px;
+}
+
+
+.weddingButton{
+  background-color: #878787b0;
+  position: absolute;
+  margin-top: -270px;
+  margin-left: 110px;
+  padding: 10%;
+  box-shadow: 0px 0px 10px black;
+  color: white;
+  text-decoration: none;
+  font-size: 22px
+}
+
+.weddingButton:hover{
+  background-color: #483314e5;
+}
+
+.btnMissionaries{
+  background-color: #878787b0;
+  position: absolute;
+  margin-top: -250px;
+  margin-left: 100px;
+  padding: 10%;
+  box-shadow: 0px 0px 10px black;
+  color: white;
+  text-decoration: none;
+  font-size: 22px
+}
+
+.btnMissionaries:hover{
+  background-color: #483314e5;
+}
+
+.h2Amenities{
+  background-color: #4f482d;
+  width: 180px;
+  text-align: center;
+  color: white;
+  margin-top: 60px;
+  padding: 2%;
+  margin-left: 90px;
+}
 
 .footerServices{
   margin-top: 800px;

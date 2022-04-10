@@ -51,8 +51,6 @@ var options = {year: "numeric"};
 document.querySelector("#year").textContent = new Date().toLocaleDateString("en-US", options);
 
 
-
-
 //----------------------------------------- WEATHER---------------------//
 
 
