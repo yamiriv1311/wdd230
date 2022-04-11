@@ -53,38 +53,49 @@ document.querySelector("#year").textContent = new Date().toLocaleDateString("en-
 
 //----------------------------------------- LIKE BUTTON ---------------------//
 
-const likesDisplay = document.querySelector(".likesNumber1");
-//const likesButton2 = document.querySelector(".likesNumber2");
-//const likesButton3 = document.querySelector(".likesNumber3");
-//const likesButton4 = document.querySelector(".likesNumber4");
+button1();
 
+function button1() {
+  if (localStorage.clickcount) {
+    localStorage.clickcount = Number(localStorage.clickcount) + 1;
+  } else {
+    localStorage.clickcount = 0;
+  }
+  document.getElementById("likesNumber1").innerHTML = localStorage.clickcount;
+}
 
-//const x = document.getElementById("menuButton");
-let btn1 = document.getElementById("likeButton1");
-//let btn2 = document.getElementById("likeButton2");
-//let btn3 = document.getElementById("likeButton3");
-//let btn4 = document.getElementById("likeButton4");
+button2();
 
+function button2() {
+  if (localStorage.clickcount) {
+    localStorage.clickcount = Number(localStorage.clickcount) + 1;
+  } else {
+    localStorage.clickcount = 0;
+  }
+  document.getElementById("likesNumber2").innerHTML = localStorage.clickcount;
+}
 
-let button1 = Number((btn1.onclick).localStorage.getItem("timesBtn1Pressed"));
-//let button2 = Number((btn2.onclick).localStorage.getItem("timesBtn2Pressed"));
-//let button3 = Number((btn3.onclick).localStorage.getItem("timesBtn3Pressed"));
-//let button4 = Number((btn4.onclick).localStorage.getItem("timesBtn4Pressed"));
+button3();
 
-button1 ++;
-//button2 ++;
-//button3 ++;
-//button4 ++;
+function button3() {
+  if (localStorage.clickcount) {
+    localStorage.clickcount = Number(localStorage.clickcount) + 1;
+  } else {
+    localStorage.clickcount = 0;
+  }
+  document.getElementById("likesNumber3").innerHTML = localStorage.clickcount;
+}
 
-ls1 = localStorage.setItem("timesBtn1Pressed", button1);
-//ls2 = localStorage.setItem("timesBtn2Pressed", button2);
-//ls3 = localStorage.setItem("timesBtn3Pressed", button3);
-//ls4 = localStorage.setItem("timesBtn4Pressed", button4);
+button4();
 
-likesNumber1.innerHTML = `${ls1}`;
-//likesNumber2.innerHTML = `${ls2}`;
-//likesNumber3.innerHTML = `${ls3}`;
-//xlikesNumber4.innerHTML = `${ls4}`;
+function button4() {
+  if (localStorage.clickcount) {
+    localStorage.clickcount = Number(localStorage.clickcount) + 1;
+  } else {
+    localStorage.clickcount = 0;
+  }
+  document.getElementById("likesNumber4").innerHTML = localStorage.clickcount;
+}
 
 
 //----------------------------------------- WEATHER---------------------//

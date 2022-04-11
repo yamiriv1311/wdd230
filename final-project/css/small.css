@@ -322,7 +322,7 @@ footer{
 }
 
 .cards{
-  margin-top: -450px;
+  margin-top: -600px;
 }
 
 .templeImage{
@@ -867,7 +867,7 @@ form .sendBtn{
 .buttonTemple1, .buttonTemple2, .buttonTemple3, .buttonTemple4{
   position: relative;
   left: 140px;
-  top: -4px;
+  top: -54px;
 }
 
 .divLikeButton1, .divLikeButton2, .divLikeButton3, .divLikeButton4{
@@ -886,35 +886,35 @@ form .sendBtn{
   color: rgb(204, 69, 92);
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 22px;
-  position: absolute;
+  position: relative;
   left: 220px;
-  margin-top: 0px;
+  top: 0px;
 }
 
 /* button1 */
 
 .divLikeButton1{
   position: relative;
-  top: 780px;
+  top: 990px;
 }
 
 /* button2 */
 
 .divLikeButton2{
   position: relative;
-  top: 1520px;
+  top: 1680px;
 }
 
 /* button3 */
 
 .divLikeButton3{
   position: relative;
-  top: 2250px;
+  top: 2350px;
 }
 
 /* button4 */
 
 .divLikeButton4{
   position: relative;
-  top: 2970px;
+  top: 3020px;
 }
