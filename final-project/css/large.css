@@ -305,20 +305,20 @@
     font-size:20px;
     grid-column: 1/2;
     position: relative;
-    top: -110px;
+    top: -170px;
     left: 0px;
   }
 
   .situation{
     font-size: 19px;
     grid-column: 1/3;
-    top: -160px;
+    top: -210px;
     left: 80px;
   }
 
   .address{
     grid-column: 3/3;
-    top: -230px;
+    top: -340px;
     margin-left: 90px;
   }
 
@@ -335,12 +335,12 @@
     position: relative;
     margin-left: -40px;
     text-align: center;
-    top: -176px;
+    top: -236px;
   }
 
   .appointment{
     grid-column: 3/3;
-    top: -290px;
+    top: -350px;
     margin-left: 90px;
   }
 
@@ -692,4 +692,76 @@
   .divContacUs{
     margin-left: 30px;
   }
+
+
+   /*  --------------------------------------------- LIKE BUTTON  --------------------------------------*/
+
+   .likeIcon{
+    font-size: 20px;
+    width: 30px;
+  }
+
+ .buttonTemple2, .buttonTemple3, .buttonTemple4{
+    position: relative;
+    left: 120px;
+    top: -10px;
+  }
+
+
+  .pLikeButton{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(204, 69, 92);
+    font-family: 'Anek Tamil', sans-serif;
+    margin-left: 25px;
+  }
+
+  .likesNumber2, .likesNumber3, .likesNumber4{
+    color: rgb(204, 69, 92);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    position: absolute;
+    left: 200px;
+    margin-top: 100px;
+  }
+
+  /* button1 */
+
+  .divLikeButton1{
+    position: absolute;
+    top: 410px;
+    left: 50px;
+  }
+
+  .likesNumber1{
+    margin-top: 0px;
+  }
+
+  /* button2 */
+
+  .divLikeButton2{
+    position: relative;
+    top: 1080px;
+    left: 50px;
+
+  }
+
+  /* button3 */
+
+  .divLikeButton3{
+    position: relative;
+    top: 1440px;
+    left: 50px;
+
+  }
+
+  /* button4 */
+
+  .divLikeButton4{
+    position: relative;
+    top: 1820px;
+    left: 50px;
+
+  }
+
 }
