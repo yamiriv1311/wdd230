@@ -64,11 +64,11 @@ function button1() {
   document.getElementById("likesNumber1").innerHTML = localStorage.clickcount;
 }
 
-localStorage.clear()
 
 button2();
 
 function button2() {
+
   if (localStorage.clickcount) {
     localStorage.clickcount = Number(localStorage.clickcount) + 1;
   } else {
@@ -80,6 +80,7 @@ function button2() {
 button3();
 
 function button3() {
+
   if (localStorage.clickcount) {
     localStorage.clickcount = Number(localStorage.clickcount) + 1;
   } else {
@@ -91,6 +92,7 @@ function button3() {
 button4();
 
 function button4() {
+
   if (localStorage.clickcount) {
     localStorage.clickcount = Number(localStorage.clickcount) + 1;
   } else {
