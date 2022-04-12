@@ -701,13 +701,13 @@
     text-align: center;
     font-size: 20px;
     color: rgb(204, 69, 92);
-    font-family: 'Anek Tamil', sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
     margin-left: 25px;
   }
 
   .likesNumber2, .likesNumber3, .likesNumber4{
     color: rgb(204, 69, 92);
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
     font-size: 20px;
     position: absolute;
     left: 200px;
@@ -718,7 +718,7 @@
 
   .divLikeButton1{
     position: absolute;
-    top: 310px;
+    top: 290px;
     left: 50px;
   }
 
@@ -730,7 +730,7 @@
 
   .divLikeButton2{
     position: relative;
-    top: 1080px;
+    top: 1030px;
     left: 50px;
 
   }
@@ -739,7 +739,7 @@
 
   .divLikeButton3{
     position: relative;
-    top: 1490px;
+    top: 1460px;
     left: 50px;
 
   }
@@ -748,7 +748,7 @@
 
   .divLikeButton4{
     position: relative;
-    top: 1910px;
+    top: 1900px;
     left: 50px;
 
   }

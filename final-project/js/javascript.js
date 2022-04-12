@@ -64,6 +64,8 @@ function button1() {
   document.getElementById("likesNumber1").innerHTML = localStorage.clickcount;
 }
 
+localStorage.clear()
+
 button2();
 
 function button2() {
